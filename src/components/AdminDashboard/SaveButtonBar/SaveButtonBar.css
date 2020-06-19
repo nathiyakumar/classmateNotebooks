@@ -1,0 +1,11 @@
+.save_btn_bar_component .save_btn_bar_container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    display: flex;
+    justify-content: flex-end;
+}
+.save_btn_bar_component .save_btn_bar_container .cancelButton,
+.save_btn_bar_component .save_btn_bar_container .saveButton,
+.save_btn_bar_component .save_btn_bar_container .removeButton{
+    margin: 25px 15px !important;
+}

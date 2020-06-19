@@ -1,0 +1,50 @@
+.my_orders_container{
+    margin-top: 20%;
+}
+.my_orders_container .my_orders_title{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    padding: 20px 0;
+    font-size: 24px;
+}
+.MblOrderStatus{
+    width: 10px;
+    height: 10px;
+    background-color: #2275f5;
+    display: inline-flex;
+    border-radius: 10px;
+    box-shadow: 0 1.5px 4px 0 #2275f5;
+}
+.MblOrderItem{
+    color: #000 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.shipping_orders{
+    border: 1px solid #70707033;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.OrderDetailsBox p{
+    color: #0000008f;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.ordered_product_details{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.order_shipping_status{
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+.mobile_track_order_btn{
+    background-color: #FF6733 !important;
+    color: #fff !important;
+    border: none !important;
+    font-size: 11px !important;
+    margin: 15px 0px !important;
+}
+.mobile_track_order_btn:focus{
+    outline: none;
+}

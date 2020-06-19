@@ -1,0 +1,40 @@
+[0923/195911.142:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[0926/153437.599:ERROR:process_info.cc(359)] UncheckedAllocate
+[1002/120205.109:ERROR:process_info.cc(359)] UncheckedAllocate
+[1002/120213.661:ERROR:process_info.cc(359)] UncheckedAllocate
+[1002/120335.440:ERROR:process_info.cc(359)] UncheckedAllocate
+[1002/120353.231:ERROR:process_info.cc(359)] UncheckedAllocate
+[1002/120743.593:ERROR:process_info.cc(359)] UncheckedAllocate
+[1002/163438.087:ERROR:process_info.cc(359)] UncheckedAllocate
+[1005/221355.295:ERROR:process_info.cc(359)] UncheckedAllocate
+[1008/152505.382:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/164834.093:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/165721.114:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/165721.162:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/165816.116:ERROR:process_info.cc(359)] UncheckedAllocate
+[1018/182228.863:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Crashpad\reports\cb378ff7-2d33-45f6-b5dd-77e5ca3a9d37.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[1024/210156.220:ERROR:process_info.cc(359)] UncheckedAllocate
+[1105/174814.397:ERROR:process_info.cc(359)] UncheckedAllocate
+[1119/200629.288:ERROR:process_info.cc(359)] UncheckedAllocate
+[1120/173052.629:ERROR:process_info.cc(359)] UncheckedAllocate
+[1120/174544.965:ERROR:process_info.cc(359)] UncheckedAllocate
+[1120/182223.307:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Crashpad\reports\cc9672ea-d6ac-49cd-af18-3505aa97afb4.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0211/191208.962:ERROR:minidumpwritedump_with_crashpad_info.cc(435)] Failed to call MiniDumpWriteDump: The paging file is too small for this operation to complete. (0x800705AF)
+[0211/191208.964:ERROR:minidumpwritedump_with_crashpad_info.cc(608)] Failed to write minidump file
+[0211/191208.964:ERROR:crash_report_exception_handler.cc(122)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0211/191209.156:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0218/170726.512:ERROR:minidumpwritedump_with_crashpad_info.cc(435)] Failed to call MiniDumpWriteDump: The paging file is too small for this operation to complete. (0x800705AF)
+[0218/170726.520:ERROR:minidumpwritedump_with_crashpad_info.cc(608)] Failed to write minidump file
+[0218/170726.520:ERROR:crash_report_exception_handler.cc(122)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0218/170726.530:ERROR:process_info.cc(359)] UncheckedAllocate
+[0219/171043.194:ERROR:minidumpwritedump_with_crashpad_info.cc(435)] Failed to call MiniDumpWriteDump: The paging file is too small for this operation to complete. (0x800705AF)
+[0219/171043.196:ERROR:minidumpwritedump_with_crashpad_info.cc(608)] Failed to write minidump file
+[0219/171043.196:ERROR:crash_report_exception_handler.cc(122)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0219/171043.200:ERROR:process_info.cc(359)] UncheckedAllocate
+[0221/151319.287:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0221/151325.994:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0221/182746.835:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0221/182748.419:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0222/160546.339:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0224/163356.600:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789
+[0224/163823.039:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value b4a3ebd8-3930-4119-9b34-b9af5a71b789

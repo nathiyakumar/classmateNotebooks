@@ -1,0 +1,89 @@
+.products-list__products__subheader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    align-items: center;
+}
+.products-list__products__subheader__total {
+    color: #c4c4c4;
+    margin: 1rem 0;
+}
+.products-list__products__subheader__sort {
+    align-items: center;
+    justify-content: flex-end;
+}
+.products-list__products__subheader__total, .products-list__products__subheader__sort {
+    display: flex;
+    flex: 1;
+}
+.products-list__products__subheader__sort span {
+    color: #c4c4c4;
+}
+.products-list__products__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2.5rem;
+}
+@media screen and (min-width: 992px) {
+    .products-list__products__grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 2rem;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 991px){
+    .products-list__products__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.products-list__products__grid a {
+    text-decoration: none;
+    color: inherit;
+}
+.products-list__loader {
+    position: relative;
+    display: flex;
+}
+.products-list__products-not-found {
+    margin: 4rem 0;
+}
+.products-list__products__load-more {
+    margin: 5rem 0;
+    text-align: center;
+}
+.products-list__products__load-more .loadmore-btn{
+    background-color: #fff;
+    box-shadow: inset 0px 0px 0px 3px #21125e;
+    border-left: 1px solid #21125e;
+    border-right: 1px solid #21125e;
+    padding: 0.9rem 3.7rem;
+    transform: skew(45deg);
+    cursor: pointer;
+}
+.products-list__products__load-more .loadmore-btn span{
+    color: #21125e;
+    display: inline-block;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.25rem;
+    transform: skew(-45deg);
+}
+
+.product_list_container{
+    padding: 2rem;
+}
+.Page_title {
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+.empty_msg{
+    text-align: center;
+    padding: 10rem;
+    font-size: 1.5rem;
+    color: gray;
+    text-transform: uppercase;
+    width: 100%;
+}

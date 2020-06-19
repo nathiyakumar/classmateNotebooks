@@ -1,0 +1,398 @@
+/*.MobileMusicSeriesLandingHeader{*/
+/*    background-color: #081642;*/
+/*    text-align: center;*/
+/*}*/
+.paperkraftLogo img{
+    width: 35%;
+}
+.MobileMusicSeriesPenLandingPage{
+    /*text-align: center;*/
+}
+.MobileMusicSeriesPenLandingPage .slick-prev{
+    z-index: 1000;
+    /*left: 2px;*/
+}
+.MobileMusicSeriesPenLandingPage .slick-next{
+    z-index: 1000;
+    /*right: 2px;*/
+}
+.MobileMusicSeriesPenLandingPage .slick-next:before, .MobileMusicSeriesPenLandingPage .slick-prev:before {
+    color: #f7db92;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .slick-list {
+height: 300px !important
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .slick-dots {
+    bottom: 90px !important;
+}
+.MobileMusicSeriesPenLandingPage .shippingText {
+    color: #061922;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 15px;
+}
+.MobileMusicSeriesPenLandingPage .LandingFirstSectionMbl{
+    background-color: #081642;
+    /*height: 100vh;*/
+    padding: 30px;
+    text-align: center;
+}
+
+.MobileMusicSeriesPenLandingPage .slick-dots li.slick-active button:before{
+    /*border: 2px solid #FF6733;*/
+    border-radius: 20px;
+
+}
+.MobileMusicSeriesPenLandingPage .slick-dots li button:before{
+    width: 19px !important;
+    height: 18px !important;
+}
+.MobileMusicSeriesPenLandingPage .slick-dots li {
+    margin: 0 6px !important;
+
+    width: 19px !important;
+    height: 19px !important;
+}
+.Paperkraft_landingBg_left {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+.MobileMusicSeriesPenLandingPage .buy-Button-mblPaperkraftPen {
+    display: block;
+    background-color: #F7DB92;
+    color: #000 !important;
+    z-index: 1000;
+    /*margin: 20px 0px;*/
+    min-width: 100% !important;
+    min-height: 50px !important;
+    /* filter: drop-shadow(3px 2px 5px #ff46468a); */
+    border-radius: 0px !important;
+    position: fixed !important;
+    bottom: 0px;
+    letter-spacing: 1.44px !important;
+    font-weight: 800 !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 18px !important;
+}
+
+
+.landing-paperkraft-subtitle1_mbl{
+    display: none;
+}
+.slick-slide .MuiGrid-container {
+    margin: 0px;
+}
+
+.MblMusicSeriesSubTitle{
+    padding: 0px 20px;
+    color: #061922;
+    /*opacity: 0.6;*/
+    font-size: 15px;
+    font-weight: normal;
+}
+/*.MobileMusicSeriesLandingHeader{*/
+/*    position: fixed !important;*/
+/*    width: 100vw;*/
+/*    z-index: 1200;*/
+/*}*/
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl{
+    /*height: 100vh;*/
+    background-color: #414141;
+    padding: 10px;
+}
+.paperkaftContentMbl{
+
+}
+.LandingFirstSectionMbl .paperkaftContentMbl img{
+    width: auto !important;
+    padding: 0px 0px;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl{
+    background: #081642;
+    /*height: 100vh;*/
+    /*opacity: 0.5;*/
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .slick-prev{
+    z-index: 1000;
+    left: 2px;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .slick-next{
+    z-index: 1000;
+    right: 2px;
+}
+.paperPenGrid .MuiGrid-spacing-xs-3 > .MuiGrid-item{
+    padding: 10px !important;
+}
+.MobileMusicSeriesPenLandingPage .LandingFourthSectionMbl{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MblVideo{
+    width: 100%;
+    height: auto;
+}
+.LandingFifthSectionMbl{
+    padding-bottom: 90px;
+}
+.MblMusicSeriesPenModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MblSeriesProductPaper {
+    background-color: #081642;
+    box-shadow: -3px 0px 6px #0000004f;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+
+    /*boxShadow: theme.shadows[5]*/
+    /*padding: theme.spacing(2, 4, 3),*/
+}
+.MblSeriesProductPaper:focus{
+    outline: none;
+}
+.MblMusicSeriesPenModal .MuiBackdrop-root {
+
+    backdrop-filter: blur(5px);
+
+}
+.PaperMusicSeriesPenCheckoutBtn {
+    width: 100%;
+    padding: 20px !important;
+    background-color :rgb(247, 219, 146) !important;
+    color: #000 !important;
+    border-radius: 0px !important;
+    letter-spacing: 1.44px !important;
+    font-weight: 600 !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 18px !important;
+}
+
+
+.GiftGrid .modalPenLandingImage{
+    width: 90px;
+    height: 90px;
+    object-fit: scale-down;
+}
+.paperkraftPenAddToCartButton{
+    bottom: 0px;
+    position: absolute !important;
+    padding: 10px !important;
+}
+.MblMusicSeriesPenModal .MuiGrid-spacing-xs-2{
+    margin: 0px !important;
+    border-bottom: 1px solid #70707030 !important;
+}
+.MblMusicSeriesPenModal .paperPenGrid {
+    padding: 15px 15px 70px 15px !important
+}
+.mblModalTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 1px solid #70707030 !important;
+    color: #000000;
+}
+.MblMusicSeriesPenModal .gift_price{
+    font-size: 24px !important;
+    color: #F7DB92;
+}
+.MblMusicSeriesPenModal .paperkraft-product-div{
+    padding: 10px 0px;
+    background-color: #FFFFFF !important;
+    border-radius: 0px !important;
+    box-shadow: 0px 3px 6px #D99D00B8;
+    margin: 10px 0px;
+}
+.MblMusicSeriesPenModal input#number {
+
+    width: 28px !important;
+    height: 28px !important;
+
+}
+.MblMusicSeriesPenModal .value-button {
+    width: 28px;
+    height: 28px;
+    padding: 0px !important;
+}
+.PaperkaraftLandingPage .MblSeriesProductPaper{
+    background-color: #FFFCF6;
+}
+.MblSeriesProductPaper .GiftGrid .mblImage {
+    /*width: 98px;*/
+    height: 98px;
+    object-fit: cover;
+}
+.MobileMusicSeriesPenLandingPage .CartFabButton {
+    color: #fff !important;
+    background-color: #F7DB92!important;
+    /* float: none; */
+    position: fixed!important;
+    bottom: 60px!important;
+    right: 20px!important;
+}
+.MobileMusicSeriesPenLandingPage .CartFabButton .MuiBadge-colorSecondary {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+
+.MblMusicSeriesPenModal .GiftGrid .gift_title{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.MblMusicSeriesPenModal .GiftGrid .gift_subtitle{
+    font-size: 12px;
+    color: #F7DB92;
+}
+.MblMusicSeriesPenModal .modalMusicSeriesFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.slide-pane_from_right.ReactModal__Content--after-open{
+    width: 100%;
+}
+.LandingFifthSectionMbl .reviewCard{
+    margin-bottom: 10px
+}
+.LandingFifthSectionMbl .slick-dots li button:before {
+    font-size: 18px !important;
+}
+.MobileMusicSeriesPenLandingPage .MuiBadge-colorSecondary {
+    color: #000;
+    background-color: #ffffff;
+}
+.MobileMusicSeriesPenLandingPage .LandingFourthSectionMbl{
+    padding-bottom: 73px;
+}
+.MobileMusicSeriesPenLandingPage .slick-dots li.slick-active button:before{
+    color: #efb63c !important;
+}
+
+@media screen and (max-width:380px) and (max-height: 570px){
+    .MobileMusicSeriesPenLandingPage .LandingFirstSectionMbl .slick-slider {
+        padding-top: 15px !important;
+    }
+}
+@media screen and (max-width:350px){
+    .MobileMusicSeriesPenLandingPage .LandingFirstSectionMbl h2 {
+       font-size: 20px
+    }
+    .MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .musicSeriesList {
+    font-size: 13px !important;
+    }
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex{
+    display: flex;
+flex-direction: row;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .musicSeriesList{
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 100%;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .musicSeriesList li {
+    margin: 15px 0px;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .colorVariantFlex{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .colorVariantFlex .colorOption1 {
+    width: 40px;
+    height: 40px;
+    background-color: #313131;
+    border-radius: 42px;
+    border: 3px solid #000;
+    margin-right: 10px;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .colorVariantFlex .colorOption2 {
+    width: 40px;
+    height: 40px;
+    background-color: #D2D2D2;
+    border-radius: 42px;
+    border: 2px solid #000;
+    margin-right: 10px;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .colorVariantFlex .beethovenOption1 {
+    width: 40px;
+    height: 40px;
+    background:linear-gradient(to bottom right, #fff 50%,#EEC850 50%);
+
+    border-radius: 42px;
+    border: 3px solid #000;
+    margin-right: 10px;
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .colorVariantFlex .beethovenOption2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 42px;
+    border: 3px solid #000;
+    margin-right: 10px;
+    background:linear-gradient(to bottom right, #fff 50%,#313131 50%);
+
+}
+.MobileMusicSeriesPenLandingPage .LandingSecondSectionMbl .musicSeriesFlex .colorVariantFlex .MozartPen {
+    width: 40px;
+    height: 40px;
+    /*background-color: #313131;*/
+    background:linear-gradient(to bottom right, #313131 50%,#EEC850 50%);
+    border-radius: 42px;
+    border: 3px solid #000;
+    margin-right: 10px;
+}
+.MobileMusicSeriesPenLandingPage .activeColorChopin , .MobileMusicSeriesPenLandingPage .activeColorBeethoven , .MobileMusicSeriesPenLandingPage .activeColorMozart {
+    border: 3px solid #FFFFFF !important;
+
+}
+.MobileMusicSeriesPenLandingPage .ChopinPen{
+    width: 32%;
+    transform: rotate(21deg);
+    position: relative;
+    left: 60px;
+}
+#addToCart1, #addToCart2,#addToCart3,#addToCart4,#addToCart5,#addToCart6{
+    display: inline-flex;
+}
+#product_quantity0, #product_quantity1, #product_quantity2, #product_quantity3,#product_quantity4, #product_quantity5{
+    display: none;
+}
+.penThumbnail{
+    background-color: #FFFFFF;
+    display: block;
+    margin: 0 auto;;
+}
+.selectedImageSlider{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.selectedImageSlider img{
+    width: 100%;
+}
+.testimonial-slider{
+    background-color: #6e6889;
+    height: 300px;
+}
+.testimonial-slider div{
+  padding: 10px;
+}
+.testimonial-slider:focus{
+    outline: none !important;
+}

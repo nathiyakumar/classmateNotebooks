@@ -1,0 +1,15 @@
+.desktop_vertical_linear_section .MuiStepLabel-label.MuiStepLabel-active {
+    color: rgb(255, 103, 51) !important;
+}
+.desktop_vertical_linear_section .MuiStepConnector-vertical{
+    margin-left: 17px !important;
+}
+.MuiStep-vertical {
+    /*height: 1.5rem;*/
+}
+.desktop_vertical_linear_section .MuiStepper-root{
+    padding: 10px 24px !important;
+}
+.desktop_vertical_linear_section .MuiStepConnector-vertical{
+    padding: 0 !important;
+}

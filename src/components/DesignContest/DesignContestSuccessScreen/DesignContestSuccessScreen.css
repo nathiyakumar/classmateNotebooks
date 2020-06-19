@@ -1,0 +1,38 @@
+.design_contest_success_page{
+    text-align: center;
+    font-family: Poppins, 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+    padding: 10px;
+}
+.design_contest_success_page .buyButton{
+    border: none;
+    color: #fff;
+    background-color: #1A73FF;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.design_contest_success_page .backButton{
+    border: none;
+    background-color: transparent;
+    color: #1A73FF;
+    font-weight: 600;
+
+}
+
+.design_contest_success_page #uploadImage{
+    width: 100px;
+    border: 2px dashed #eee;
+    padding: 10px;
+}
+
+.design_contest_success_page .crossFingerImg{
+    width: 47px;
+    margin-top: -24px;
+    margin-left: 175px;
+}

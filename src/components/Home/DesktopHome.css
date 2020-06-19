@@ -1,0 +1,274 @@
+body{
+    overflow-x: hidden;
+}
+.desktopHome .section1{
+    margin-top: 75px !important;
+}
+.desktopHome .section1 , .desktopHome .section2 ,.desktopHome .section3,
+.desktopHome .section4  , .desktopHome .section5{
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /*height: 580px;*/
+    margin-bottom: 2%;
+}
+.section1Title{
+
+    text-align: left;
+    font: 54px'Montserrat', sans-serif !important;
+    font-size:  50px !important;
+    letter-spacing: 0 !important;
+    color: #061922;
+    opacity: 1;
+    font-weight: 600 !important;
+    padding-top: 8rem;
+    text-align: left;
+}
+.section1Content{
+    text-align: left;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 30px 0px;
+}
+.Design-btn{
+    filter: drop-shadow(0px 10px 20px rgba(255, 103, 51, 0.40));
+    float: left;
+    min-width: 150px;
+    min-height: 56px;
+    padding: 12px 30px;
+    /* margin-top: 32px; */
+    background-color: #ff6733;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 1.44px;
+    font-size: 17px;
+    /* font-weight: 600; */
+    font-family: 'Poppins', sans-serif !important;
+
+}
+.Design-btn i{
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Design-btn span:before{
+    content: "";
+    position: absolute;
+    /* background-color: orange; */
+    width: 149px;
+    top: 52%;
+    height: 25px;
+
+    filter: blur(30px);
+}
+.rightSide{
+    height: 320px;
+    background: transparent linear-gradient(249deg, #FFB391 0%, #FF6E96 100%) 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    opacity: 0.4;
+}
+.big-img{
+    position: absolute;
+    width: 607px;
+    opacity: 1;
+    z-index: 0;
+}
+.small-img{
+    position: relative;
+    top: 280px;
+    width: 363px;
+    height: 256px;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+.center-img{
+    top: 219px;
+    right: -104px;
+    border-radius: 4px;
+    opacity: 1;
+    position: absolute;
+}
+.section2background{
+    left: 234px;
+    /*width: 700px;*/
+    height: 400px;
+    background: transparent linear-gradient(90deg, #F3E2FF 0%, #FFECFF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    padding: 36px;
+}
+.wrapper{
+    position: absolute;
+    top: 161px;
+}
+.section2Title{
+    padding-bottom: 18px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 0;
+    color: #061922;
+    opacity: 1;
+    font-weight: 600 !important;
+}
+.formControl{
+
+    width: 150px;
+}
+
+.selectDsgn:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid #000000 !important;
+}
+.selectDsgn:after {
+    border-bottom: 2px solid #000000 !important;
+    pointer-events: none;
+}
+.card{
+    max-width: 148px;
+}
+.media{
+    height: 140px;
+}
+.cardSpan{
+    display: flex;
+    margin-top: 2%;
+}
+.cardSpan .card Typography{
+    font-size: 14px;
+}
+.cardSpan .card .MuiCardContent-root {
+    padding: 3px;
+}
+.ImageSplit{
+    width: 120px;
+}
+.section3{
+    height: 400px !important;
+    background: transparent radial-gradient(closest-side at 59% 1%, #FFB7B7 0%, #FFB8B8 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+.step{
+    background: rgba(255, 255, 255, 0.3) 0 0 no-repeat padding-box;
+    /* opacity: .33; */
+    font-size: 12px;
+    border-radius: 100%;
+    padding: 10px 15px;
+    /* width: 60px; */
+    /* height: 60px; */
+    /* backdrop-filter: blur(20px); */
+    margin-right: 10px;
+}
+.uploadBtn{
+    border: none;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 24px;
+    font-size: 17px;
+}
+.AllDesign , .moreInfo{
+    border: none;
+    padding: 10px 20px;
+    background: rgb(255, 255, 255) 0 0 no-repeat padding-box;
+    border-radius: 24px;
+    font-size: 17px;
+
+
+}
+.section4Background{
+    width: 540px;
+    height: 350px;
+    background: transparent linear-gradient(60deg, #97FBEA 0%, #B4EEFB 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.section4{
+    margin-top: 50px !important;
+}
+.Section4Right{
+
+    margin-top: 40px;
+    margin-left: -45px;
+}
+.Section4Right .MuiCardContent-root {
+    padding: 0px;
+}
+.Section4Right .card{
+    max-width: 160px
+}
+.Section4Left {
+    width: 75%;
+    height: 94px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 0;
+    color: #061922;
+    opacity: 1;
+    padding: 40px;
+
+}
+.Section4Left h5 ,.section5Left h5{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+
+}
+.viewMoreBtn{
+    margin-top: 12px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.section5background{
+    height: 370px;
+    background: transparent radial-gradient(closest-side at 76% 53%, #36383F 0%, #5A5A5A 0%, #1A1D22 49%, #292929 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.paperkraftImage{
+    width: 90%;
+    /* padding-top: 71px; */
+    padding: 30px
+}
+.paperkaftLogo{
+    /*padding: 30px 0px 0px 50px;*/
+    float: left;
+}
+.section5{
+    margin-top: 45px !important;
+    height: 380px !important;
+}
+.section5Left {
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.paperkaftTitle{
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif !important;
+}
+.price{
+    color: #ff6733;
+}
+button{
+    /*outline: none;*/
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+.cardSpan .grid {
+    margin: 10px;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    height: 400px !important;
+}
+.ThemedNotebookSeries{
+    width: 100%;
+    height: 100%;
+}

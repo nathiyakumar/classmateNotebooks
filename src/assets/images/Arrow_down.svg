@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 23 23">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h23v23H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Icon_Keyboard_Arrow_-_Down_Sharp" class="cls-2" data-name="Icon / Keyboard Arrow - Down / Sharp">
+        <path id="Box" d="M0 0h23v23H0z" class="cls-1"/>
+        <path id="Icon_Keyboard_Arrow_-_Up_Dark" d="M10.6 7.4L6 2.8 1.4 7.4 0 6l6-6 6 6z" data-name="Icon / Keyboard Arrow - Up / Dark" transform="rotate(180 8.75 7.459)"/>
+    </g>
+</svg>

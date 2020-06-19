@@ -1,0 +1,21 @@
+.product_type_detail_component  .product_type_form_label{
+    color: #000;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+    color: #ff6733 !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #ff6733 !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: #ff6733 !important;
+}
+.product_type_detail_component .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #FF6733 !important;
+}
+.product_type_detail_component .MuiFormLabel-root.Mui-focused{
+    color:#FF6733 !important;
+}

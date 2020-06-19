@@ -1,0 +1,46 @@
+.collection_detail_component .form_feild{
+    width: 100%;
+}
+.collection_detail_component .product_form_transition_label{
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+.collection_detail_component .product_image_section {
+    position:relative;
+    display:inline-block;
+    margin:1rem;
+}
+.collection_detail_component .overlay {
+    display:none;
+}
+.collection_detail_component .product_image_section:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.21);
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    text-align:end;
+    align-items: center;
+    justify-content: center;
+}
+.collection_detail_component .product_image_section .overlay .delete_product_image{
+    background-color: #FFFFFF;
+}
+.collection_detail_component .product_image_section .overlay .delete_product_image svg{
+    fill: #f4511e;
+}
+.collection_detail_component .uploaded_product_image {
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+    vertical-align: top;
+}
+.collection_detail_component .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #FF6733 !important;
+}
+.collection_detail_component .MuiFormLabel-root.Mui-focused{
+    color:#FF6733 !important;
+}
+

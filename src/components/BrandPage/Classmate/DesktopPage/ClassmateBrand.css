@@ -1,0 +1,184 @@
+.classmate_brand_component .filterbar_container{
+    display: flex;
+    padding: 0 10%;
+    justify-content: center;
+    align-items: center;
+}
+.classmate_brand_component .category_menu_btn:hover{
+    background: none !important;
+}
+.classmate_brand_component .category_menu_btn .back_arrow_icon{
+    margin-right: 15px;
+}
+.classmate_brand_component .category_menu_btn .up_dow_arrow_icon{
+    margin-left: 10px;
+}
+.classmate_brand_component .dropdown_section{
+    display: flex;
+    width: fit-content;
+    background: #70707033;
+    padding: 0px 10px;
+    margin: 0 15px;
+    min-width: 13rem;
+    justify-content: space-evenly;
+}
+.classmate_brand_component .dropdown_section .dropdown_label{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #06192280;
+}
+
+.classmate_brand_component .specification_dropdown_section{
+    display: flex;
+}
+
+.classmate_brand_component .filterbar_section_card{
+    z-index: 10000;
+    position: sticky;
+    width: 100%;
+    top: 56px;
+    overflow: visible !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.classmate_brand_grid_section .main_category_grid{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*padding: 30px;*/
+    /*cursor: pointer;*/
+    /*width: 100%;*/
+    width: 13rem;
+    height: 10rem;
+}
+.classmate_brand_grid_section .category_icon_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*padding: 30px;*/
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.classmate_brand_grid_section .main_category_active{
+    height: 4px;
+    width: 70px;
+    background-color: #FF6733;
+}
+.classmate_brand_grid_section .main_category_inactive{
+    height: 4px;
+    width: 70px;
+}
+.classmate_brand_grid_section .left_grid_container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+@media screen and (min-width: 1300px){
+    .classmate_brand_grid_section .left_grid_container{
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+}
+.classmate_brand_grid_section .right_grid_container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 10% !important;
+}
+
+.classmate_brand_grid_section .sub_category_heading{
+    padding-left: 32px;
+}
+.classmate_brand_grid_section .sub_category_active{
+    background-color: #FF6733 !important;
+    color: #fff;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    width: 50%;
+}
+.classmate_brand_grid_section .sub_category_inactive{
+    width: 50%;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.classmate_brand_grid_section .sub_category_inactive:hover{
+    background: none !important;
+    /*color: #fff;*/
+
+
+}
+.classmate_brand_grid_section .sub_category_list_item{
+    margin-left: 1rem;
+}
+
+.classmate_brand_grid_section .classmate_brand_grid_container .align_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .classmate_image_section{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .classmate_image_section .classmate_product_image{
+    object-fit: contain;
+    max-width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .classmate_product_name{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .product_card_action{
+    margin: 15px 25px;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .classmate_product_price{
+    color: #ff6733;
+    font-weight: 600;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .product_cart_content{
+    background-color: #70707033 !important;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .left_column{
+    background: #e2e2e2;
+    min-height: 100vh;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .right_column{
+    background: #FFFFFF;
+    min-height: 100vh;
+}
+.classmate_brand_grid_section .classmate_brand_grid_container .main_category_icon{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+

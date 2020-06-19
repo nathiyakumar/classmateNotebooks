@@ -1,0 +1,68 @@
+.shipping_detail_component .form_feild{
+    width: 100%;
+}
+.shipping_detail_component .product_form_transition_label{
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+.shipping_detail_component .product_image_section {
+    position:relative;
+    display:inline-block;
+    margin:1rem;
+}
+.shipping_detail_component .overlay {
+    display:none;
+}
+.shipping_detail_component .product_image_section:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.21);
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    text-align:end;
+    align-items: center;
+    justify-content: center;
+}
+.shipping_detail_component .product_image_section .overlay .delete_product_image{
+    background-color: #FFFFFF;
+}
+.shipping_detail_component .product_image_section .overlay .delete_product_image svg{
+    fill: #f4511e;
+}
+.shipping_detail_component .uploaded_product_image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    vertical-align: top;
+}
+.shipping_detail_component .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #FF6733 !important;
+}
+.shipping_detail_component .MuiFormLabel-root.Mui-focused{
+    color:#FF6733 !important;
+}
+
+.shipping_detail_component .input-euro {
+    position: relative;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.shipping_detail_component .input-euro:before  {
+    position: absolute;
+    content:"%";
+}
+
+.shipping_detail_component .input-euro.right input {
+    padding-right:18px;
+    /*text-align:end;*/
+}
+
+.shipping_detail_component .input-euro.right:before {
+    right: 5px;
+}
+.shipping_detail_component .MuiInputBase-input{
+    color: #000 !important;
+}

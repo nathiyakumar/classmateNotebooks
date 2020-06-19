@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/gxg4wgh.css");
+
+
+body {
+  margin: 0;
+  font-family: Open Sans,sans-serif,Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 540px){
+  html, body {
+    min-width: 1260px !important;
+    height: 100%;
+  }
+
+}
+
+@media  screen and  (max-width: 768px){
+  #ct-container .ct-row{
+    position: fixed !important;
+    bottom: 10% !important;
+    /* top: 50%; */
+    right: 5% !important;
+    left: 5% !important;
+    margin: 0 auto !important;
+  }
+}
+
+
+button:disabled {
+  background-color: lightgray !important;
+  cursor: no-drop !important;
+}
+/*code {*/
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",*/
+/*    monospace;*/
+/*}*/
+
+

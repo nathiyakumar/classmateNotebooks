@@ -1,0 +1,64 @@
+
+.mblBrandPage{
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+}
+.mblBrandPage ._1sfQtb1VI_mhiaP2luSXxK{
+    display: none;
+}
+/*.scrollSection1{*/
+/*    padding: 10px;*/
+/*}*/
+/*.scrollSection1 h4{*/
+/*    margin-top: 35px;*/
+/*    text-align: center;*/
+/*}*/
+.section2brandTitle{
+    font-family: 'Montserrat' ,Italic, sans-serif !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    /* text-align: center; */
+    padding: 10px ;
+    margin-top: 65px !important;
+}
+.section2brandSubTitle{
+    font-family: 'Montserrat' , sans-serif !important;
+    /* text-align: center; */
+    padding: 10px ;
+
+}
+.mblNotebookSeries{
+    width: 75%;
+
+    padding: 20px;
+}
+.Section2BrandBtn{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    text-align: left;
+    /*font: Semibold 14px/19px Open Sans;*/
+    letter-spacing: 1.12px;
+    color: #061922;
+    opacity: 1;
+    padding: 16px;
+    border: none;
+    bottom: 32px;
+    position: absolute;
+    /*bottom: 0px;*/
+
+
+}
+.ScrollsectionDiv{
+    padding: 0 16px;
+}
+
+.sec1Blob {
+    background: #77d2ff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 99;
+}

@@ -1,0 +1,64 @@
+.BrandPage .MuiGrid-spacing-xs-3 {
+
+    margin: 0px !important;
+}
+
+
+.BrandBanner{
+    height: 55vh;
+    background: transparent linear-gradient(90deg, #68FFF5 0%, #58CBFF 51%, #A4AFFF 100%) 0% 0% no-repeat padding-box;
+}
+.BrandBanner img{
+    width: 60%;
+    height: auto !important;
+    padding: 15px !important;
+}
+.LeftSideGrid{
+    height: 60vh;
+    background: #ECF2F5 0% 0% no-repeat padding-box;
+}
+.RightSideGrid{
+    height: 60vh;
+
+}
+.column1Grid{
+    background: #FFE0C2 0% 0% no-repeat padding-box;
+    height: 30vh;
+
+}
+.column2Grid{
+    background: #D4C2FF 0% 0% no-repeat padding-box;
+    height: 30vh;
+
+}
+.column3Grid{
+    background: #9DCEB4 0% 0% no-repeat padding-box;
+    height: 30vh;
+
+}
+.column4Grid{
+    background: #FFC2C2 0% 0% no-repeat padding-box;
+    height: 30vh;
+}
+.BrandPage h6 , .BrandPage h4 ,.BrandPage h3{
+    font-family: Montserrat Italic, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+.BrandPage h3 {
+    font-family: Montserrat , sans-serif !important;
+    font-weight: bolder !important;
+}
+.classmate_brand_page_img{
+    height: 65%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+}
+.seriesImg{
+    height: auto !important;
+    width: 75%;
+    padding: 40px 0px !important;
+}

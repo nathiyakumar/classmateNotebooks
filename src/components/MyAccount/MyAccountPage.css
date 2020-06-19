@@ -1,0 +1,17 @@
+.UserAccount{
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 26px 0px 10px 0px;
+}
+.userProfile{
+    background-color: #2e3e5e;
+    height: 120px;
+    color: #fff;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.userDetail{
+    padding: 15px 15px;
+}

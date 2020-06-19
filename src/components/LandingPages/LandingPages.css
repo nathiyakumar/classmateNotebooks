@@ -1,0 +1,307 @@
+/*html{*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: hidden;*/
+/*}*/
+@media (min-width: 1500px) {
+    .landing-page-content .step_span {
+        font-family: 'Poppins', sans-serif !important;
+        text-align: left;
+        cursor: pointer;
+        font-size: 18px !important;
+    }
+
+    .landing-page-content h1 {
+        font-size: 39px !important;
+    }
+
+    .landing-page-content {
+        padding: 45px 60px 0px 60px !important;
+    }
+
+
+}
+
+@media (min-width: 767px) {
+    .landing-page-header {
+        width: 250px;
+        height: 100px;
+        background-color: #061922;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 760px) {
+    /*html{*/
+    /*    overflow-x: hidden;*/
+    /*    overflow-y: scroll;*/
+    /*}*/
+    .landing-page-header {
+        justify-content: center !important;
+        padding: 10px 0px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .ContentSteps {
+        flex-direction: column;
+        float: none !important;
+        display: inline-flex !important;
+        align-items: flex-start !important;
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .ContentSteps i {
+        display: none !important;
+    }
+
+    .landing-page-content {
+        padding: 8px !important;
+        text-align: center;
+    }
+
+    .buy-Button {
+        margin: 0px !important;
+    }
+
+    .landing-page-content h1 {
+        margin: 0px;
+        font-size: 25px!important;
+
+    }
+
+    .owl-item {
+        transform: rotate(-90deg) !important;
+        /*margin: 10px !important;*/
+    }
+
+    .owl-theme {
+        transform: rotate(0deg) !important;
+        height: 15vh !important;
+    }
+
+    .landing_image {
+        width: 100% !important;
+        position: relative !important;
+        left: 0 !important;
+        top: -3px !important;
+    }
+
+    .landingBg {
+        min-height: 45vh !important;
+    }
+
+    .buy-Button {
+        display: none !important;
+    }
+
+    .buy-Button-mbl {
+        display: block;
+        background: transparent linear-gradient(180deg, #FF5454 0%, #FF4444 100%) 0% 0% no-repeat padding-box;
+        color: #ffffff !important;
+        padding: 10px 35px;
+        margin: 20px 0px;
+        letter-spacing: 1.12px;
+        min-width: 100% !important;
+        min-height: 50px !important;
+        /* filter: drop-shadow(3px 2px 5px #ff46468a); */
+        z-index: 2000;
+        border-radius: 0px !important;
+        position: fixed !important;
+        bottom: 0px
+    }
+
+    .landing-page-subtitle1 {
+        display: none !important;
+    }
+
+    .landing-page-subtitle1_mbl {
+        display: block !important;
+        color: #ffffff !important;
+        font-family: "Poppins", sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        opacity: 0.6;
+        margin-top: 30px;
+        position: fixed;
+        bottom: 53px;
+    }
+
+    .landingBg_left {
+        height: 100%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .customise_btn_div {
+        display: none !important;
+    }
+
+    .left-snow img {
+        width: 23%;
+        float: right;
+        position: fixed;
+        /* top: -27px; */
+        z-index: 2001;
+        right: 75px;
+        bottom: 26px;
+
+    }
+
+    .landing-page-header img {
+        width: 35% !important;
+        padding-right: 0px !important;
+
+    }
+    .landing-page-content .landing-page-subtitle{
+        display: none;
+    }
+    .owl-carousel .owl-item img {
+        width: 175px !important;
+    }
+
+    /*.landingBg_left{*/
+    /*    display: block;*/
+    /*}*/
+}
+
+.buy-Button-mbl {
+    display: none;
+}
+
+.landingBg_left {
+    display: none;
+}
+
+.ContentSteps {
+    margin: 40px 0px;
+}
+
+.landing-page-header img {
+    width: 70%;
+    padding-right: 15px !important;
+}
+
+.landing-page-content {
+    padding: 45px 60px 0px 30px;
+}
+
+.landing-page-content h1 {
+    color: #113C2C !important;
+    font-family: museo-slab !important;
+    font-weight: bolder !important;
+    font-size: 30px;
+}
+
+.landing-page-content .landing-page-subtitle {
+    color: #113C2C !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 19px !important;
+    opacity: 0.8;
+
+
+}
+
+.landing-page-subtitle1_mbl {
+    display: none;
+}
+
+.landing-page-content .landing-page-subtitle1 {
+    color: #000000 !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+
+
+}
+
+.landing-page-content .landing-page-step {
+    background-color: #C60C28;
+    color: #ffffff;
+    filter: drop-shadow(2px 4px 4px #00000029);
+    width: 30px;
+    height: 30px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.landing-page-content .step_span {
+    font-family: 'Poppins', sans-serif !important;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.landing-page-content .buy-Button {
+    background: transparent linear-gradient(83deg, #FF6060 0%, #FF3D3D 100%) 0% 0% no-repeat padding-box !important;
+    color: #ffffff;
+    padding: 10px 35px;
+    margin: 20px 0px;
+    display: block;
+    filter: drop-shadow(3px 2px 5px #ff46468a);
+    letter-spacing: 2px;
+
+}
+
+.landingBg {
+    background: url("https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/landing_image.png") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.landing_image {
+    width: 100vh;
+    position: absolute;
+    left: 36%;
+    top: 0px ;
+}
+
+.landing_image img {
+    /*width: 300px;*/
+    /*margin-bottom: 20px !important;*/
+}
+
+.owl-stage-outer {
+}
+
+.owl-stage {
+
+}
+
+.owl-theme {
+    height: 100vh;
+}
+
+/*.owl-item {*/
+
+/*    margin: 10px !important;*/
+/*}*/
+
+.customise_btn_div {
+    display: block;
+    background: #CC231E 0% 0% no-repeat padding-box;
+    width: 20vw;
+    height: 60px;
+    /* float: right; */
+    color: #fff;
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    z-index: 10000;
+
+
+}

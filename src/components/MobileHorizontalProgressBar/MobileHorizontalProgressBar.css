@@ -1,0 +1,13 @@
+/*progreebar code*/
+
+.MuiSlider-track {
+    height: 2px;
+    display: block;
+    position: absolute;
+    border-radius: 1px;
+    background-color: currentColor;
+    background: transparent linear-gradient(90deg, #0BF1A7 0%, #3AA0B4 100%) 0% 0% no-repeat padding-box !important;
+}
+.footer{
+    margin-top: 16px;
+}

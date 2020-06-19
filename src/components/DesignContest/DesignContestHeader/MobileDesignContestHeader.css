@@ -1,0 +1,49 @@
+.mobile_logo{
+    width: 150px;
+    object-fit: scale-down;
+}
+.mobile_cart_count_badge .MuiBadge-colorSecondary{
+    color: #ffffff;
+    background-color: #FF6733;
+    z-index: -1;
+}
+.login_user_details{
+    display: flex;
+    padding: 20px;
+    background-color: #061922;
+    color: #ffffff;
+    align-items: center;
+}
+.user_avator{
+    width: 80px;
+    height: 80px;
+    background-color: #71788a;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10%;
+}
+.user_avator img{
+    width: 70%;
+}
+.mobile_category_list{
+    background-color: #072533;
+    color: #fff;
+}
+.mobile_navbar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.mobile_category_list .MuiCollapse-container{
+    /*padding-left: 20px;*/
+}
+marquee{
+    background-color: #292961;
+    color:#fff;
+    height: 50px;
+    /*display: flex;*/
+    align-items: center;
+}
+
+.MainNav{
+    background-color: #292961;
+}

@@ -1,0 +1,48 @@
+.ListProductItem{
+    display: flex;
+    border-bottom: 2px solid #E2E2E2;
+    padding: 7px;
+}
+.ListProductItem .productName{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px !important;
+    color: #383838;
+}
+.ListProductItem .productPrice{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px !important;
+    color: #ff6733;
+}
+.ListProductItem .discountPrice{
+    margin: 0px 10px;
+    text-decoration: line-through;
+    color: #38383878;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif;
+}
+.ListProductItem .discountPercent{
+    margin: 0px 10px;
+    color: #46C267;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ListProductItem .AddProduct{
+    background-color: #ff6733;
+    color: #fff;
+    font-size: 24px;
+    /*float: right;*/
+    /*right: -10px;*/
+    /*bottom: -7px;*/
+    border-radius: 10px 0px 0px 0px;
+}
+.ListProductItem .AddProduct:hover{
+    background-color: #ff6733;
+}
+.ListProductItem .addBtnSpan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

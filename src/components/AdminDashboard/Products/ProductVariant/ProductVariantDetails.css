@@ -1,0 +1,84 @@
+.product_variant_detail_component .vertical_tab_root{
+    flex-grow: 1;
+    background-color: white;
+    display: flex;
+}
+.product_variant_detail_component .vertical_tab_root .MuiTabs-indicator {
+    left: 0 !important;
+    background-color: #FF6733 !important;
+
+}
+.product_variant_detail_component .vertical_tab_root .MuiTab-root {
+    border: 1px solid #80808040;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.product_variant_detail_component .vertical_tab_root .MuiTabs-vertical{
+    width: 100% !important;
+}
+.product_variant_detail_component .form_feild{
+    width: 100%;
+}
+.product_variant_detail_component .product_form_transition_label{
+    background-color: white;
+}
+.product_variant_detail_component .vertical_tab_root .MuiTab-wrapper{
+    flex-direction: row !important;
+    justify-content: left !important;
+
+}
+.product_variant_detail_component .vertical_tab_root .variant_image{
+    width: 40px;
+    height: 40px;
+    object-fit: scale-down;
+    border: 1px solid gray;
+    margin-right: 10px;
+    cursor: none;
+}
+
+.product_variant_detail_component .product_image_section {
+    position:relative;
+    display:inline-block;
+    margin:1rem;
+}
+.product_variant_detail_component .overlay {
+    display:none;
+}
+.product_variant_detail_component .product_image_section:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.21);
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    text-align:end;
+    align-items: center;
+    justify-content: center;
+}
+.product_variant_detail_component .product_image_section .overlay .delete_product_image{
+    background-color: #FFFFFF;
+}
+.product_variant_detail_component .product_image_section .overlay .delete_product_image svg{
+    fill: #f4511e;
+}
+.product_variant_detail_component .uploaded_product_image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.product_variant_detail_component .product_variant_image_description{
+    color: #3D3D3D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+}
+/*.product_variant_detail_component .variant_image{*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    object-fit: cover;*/
+/*    margin: 20px 10px;*/
+/*}*/

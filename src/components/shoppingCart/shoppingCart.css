@@ -1,0 +1,119 @@
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.cart_action_form{
+    display: flex;
+}
+.delete_product .MuiSvgIcon-root {
+
+    color: #ff6733 !important;
+}
+.delete_product_part span{
+    color: #ff6733;
+}
+.cart_quantity_part,.total_price_cart{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout_btn button,.cart__empty__action .secondary{
+    background-color: #ff6733;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.product_name{
+    font-size: 16px;
+}
+.subtotal_price{
+    display: flex;
+    justify-content: space-between;
+
+}
+.product_price{
+    display: flex;
+}
+.product_price p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cart__empty {
+    padding: 2rem 1rem;
+}
+.cart__empty h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.cart__empty p {
+    color: #c4c4c4;
+    line-height: 1.5rem;
+}
+.cart__empty__action {
+    text-align: center;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 540px){
+    .product_name{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .total_price_cart,.checkout_btn button{
+        font-size: 14px;
+    }
+}
+
+
+

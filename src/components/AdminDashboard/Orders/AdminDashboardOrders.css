@@ -1,0 +1,385 @@
+.admin_dash_table_root{
+    width: 100% !important;
+}
+.admin_dash_table_root .MuiTablePagination-toolbar{
+    padding: 1rem ;
+    border-top: 1px solid rgba(0, 0, 0, 0.54);
+}
+.admin_dash_table_tableWrapper{
+    max-height: 60vh !important;
+    overflow: auto !important;
+}
+.admin_dashboard_section{
+    /*padding:0 3% !important;*/
+    /*padding-right: 6% !important;*/
+    /*padding-top: 6% !important;*/
+    /*padding-bottom: 6% !important;*/
+}
+.admin_table_rows:hover{
+    cursor: pointer;
+}
+.dash_products_table_paper{
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+.dash_products_table{
+    min-width: 650px;
+}
+.dashboard_action_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.dashboard_approve_btn, .dashboard_disapprove_btn{
+    padding: 15px;
+    width: 8rem;
+    margin: 0px 5px;
+    border: none;
+    background-color: #ff6733;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dashboard_fields_title{
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+}
+.dashboard_fields_para {
+    font-size: 14px !important;
+    margin: 10px !important;
+}
+.dashboard_info_section{
+    margin-bottom: 20px !important;
+}
+.dashboard_model_left_column{
+    background-color: #f1f1f1c7;
+}
+.dashboard_model_right_column,.dashboard_model_left_column{
+    padding: 20px;
+}
+.dashboard_filter_btn{
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #FF6733;
+    border-radius: 100px;
+    margin: 5px;
+    text-transform: uppercase;
+    color: #FF6733;
+    cursor: pointer;
+    /*width: 13rem;*/
+}
+.dashboard_filter_btn_active{
+    padding: 10px;
+    border: 2px solid #FF6733;
+    border-radius: 100px;
+    margin: 10px;
+    text-transform: uppercase;
+    background-color: #FF6733;
+    color: #ffffff;
+    cursor: pointer;
+    /*width: 230px;*/
+}
+.dashboard_status_title{
+    margin-left: 15px !important;
+    margin-bottom: 25px !important;
+    font-size: 1.7rem !important;
+}
+.refund_input_field{
+    padding: 13px 20px;
+}
+.currency_symbol{
+    position: relative;
+    left: 20px;
+}
+.admin_dash_table_tableWrapper th{
+    font-weight: 600;
+    font-size: 14px;
+}
+.admin_dashboard_datepicker.MuiFormControl-marginNormal {
+    margin-top: 0px !important;
+    margin-bottom: 8px;
+    margin-left: 8px !important;
+
+}
+
+.MuiPickersDay-daySelected {
+    color: #fff!important;
+    font-weight: 500;
+    background-color:#ff6733 !important;
+}
+.MuiPickersDay-current.MuiPickersDay-daySelected{
+    color: #fff!important;
+}
+.MuiPickersDay-current{
+    color:  #ff6733 !important;
+}
+.admin_dashboard_datepicker .MuiInputLabel-root{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+}
+.export_btn,.admin_report_btn{
+    background-color: #ff6733 !important;
+    color: #fff !important;
+    /*width: 6rem;*/
+    margin: 10px !important;
+}
+
+
+/*for dropdown*/
+
+.orders_table_dropdown_section .select-hidden {
+    display: none;
+    visibility: hidden;
+    padding-right: 10px;
+}
+
+.orders_table_dropdown_section .select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #ff6733;
+    width: 220px;
+    height: 40px;
+    margin-left: 2rem;
+    border: 1px solid #ff6733;
+}
+
+.orders_table_dropdown_section .select-styled {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-color: #c0392b;*/
+    padding: 8px 15px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.orders_table_dropdown_section .select-styled:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: #ff6733 transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+}
+.orders_table_dropdown_section .select-styled:hover {
+    background-color: #ff6733;
+    color: #ffffff;
+}
+.orders_table_dropdown_section .select-styled:hover::after {
+    border-color: #ffffff transparent transparent transparent;
+}
+
+.orders_table_dropdown_section .select-styled:active, .select-styled.active {
+    background-color: #ff6733;
+    color: #ffffff;
+}
+.orders_table_dropdown_section .select-styled:active:after, .select-styled.active:after {
+    top: 9px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.orders_table_dropdown_section .select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ff6733;
+    height: 10rem;
+    overflow: auto;
+}
+.orders_table_dropdown_section .select-options li {
+    margin: 0;
+    padding: 12px 0;
+    text-indent: 15px;
+    border-top: 1px solid lightgrey;
+    -moz-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+.orders_table_dropdown_section .select-options li:hover {
+    color: #ffffff;
+    background: #ff6733;
+}
+.orders_table_dropdown_section .select-options li[rel="hide"] {
+    display: none;
+}
+.orders_table_dropdown_section{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+.orders_table_dropdown_section label{
+    font-size: 20px;
+}
+.orders_table_dropdown_section .order_status_action{
+    margin-left: 2rem;
+}
+.admin_dashboard_section .table_search_section input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+}
+.admin_dashboard_section .table_search_section input :focus{
+    outline: none !important;
+    border: none;
+}
+.admin_dashboard_section .table_search_section button{
+    width: 20%;
+    padding: 10px;
+    background: #80808091;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+.admin_dashboard_section .MuiChip-avatar {
+    color: #fff !important;
+    background-color: #ff6733 !important;
+}
+.admin_dashboard_section .MuiChip-root{
+    background: #ff67332e;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1.5rem;
+}
+.admin_dashboard_section .MuiChip-label {
+    color: #ff6733;
+    text-transform: uppercase;
+}
+.admin_report_table_section{
+    max-height: 60vh !important;
+    overflow: auto !important;
+}
+
+
+/* width */
+.admin_dashboard_section ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+
+.admin_dashboard_section ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    border-radius: 10px;
+}
+
+/* Handle */
+.admin_dashboard_section ::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.admin_dashboard_section ::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
+.admin_table_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.admin_table_select_menu {
+    margin: 15px 20px !important;
+    min-width: 120px !important;
+}
+
+
+
+.admin_submit_report_btn{
+    background-color: #ff6733 !important;
+    color: #fff !important;
+    width: 12rem;
+}
+
+
+/*.DayPicker_transitionContainer{*/
+/*    overflow: visible !important;*/
+/*}*/
+.report_form{
+    min-height: 35vh;
+    padding-bottom: 5%;
+}
+.report_form_group {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.report_form_group label{
+    margin-bottom: 1rem;
+}
+.report_form_group .react-daterange-picker{
+    height: 3rem;
+}
+.report_form_group .report_name_input{
+    height: 3rem;
+    /*width: 48%;*/
+}
+.report_form_group .react-daterange-picker .react-daterange-picker__range-divider{
+    margin: auto;
+}
+
+.admin_table_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.admin_table_select_menu {
+    margin: 15px 20px !important;
+    min-width: 120px !important;
+}
+.visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    width: 1px;
+}
+.admin_dashboard_section .searchTextFeild{
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+/*.MuiFormLabel-root.Mui-focused{*/
+/*    color: #ff6733 !important;*/
+/*}*/
+/*.MuiOutlinedInput-root.Mui-focused*/
+/*.MuiOutlinedInput-notchedOutline{*/
+/* border-color: #ff6733 !important;*/
+/*}*/
+/*#outlined-search::-webkit-search-cancel-button{*/
+/*    background-color: #0bf1a7 !important;*/
+/*}*/
+
+
+
+
+
+

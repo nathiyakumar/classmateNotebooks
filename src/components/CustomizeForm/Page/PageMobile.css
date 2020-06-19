@@ -1,0 +1,146 @@
+.mobile_spec_field_component{
+    margin-top: 1rem;
+}
+.notebook_page_image{
+    width: 70%;
+    height: auto;
+}
+.form_title_desktop{
+    font-size: 30px;
+    margin: 0;
+}
+.question_desktop{
+    opacity: 0.6;
+    color: #000;
+    font: 18px "Open Sans", sans-serif;
+    font-weight: normal;
+}
+.spec_field_section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.spec_field_section > div {
+    flex: 1;
+    padding: 0.5rem;
+    max-width: 256px;
+    font-size: 12px;
+}
+
+.mobile_radio_inputs {
+    display: none;
+}
+.mobile_radio_inputs:not(:disabled) ~ label {
+    cursor: pointer;
+}
+.mobile_radio_inputs:disabled ~ label {
+    color: #bcc2bf;
+    border-color: #bcc2bf;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.label {
+    /*height: 100%;*/
+    display: block;
+    background: white;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    /*padding: 1rem;*/
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.mobile_radio_inputs:checked + label {
+    background: #fff;
+    color: #000;
+    border: 2px solid #FF6733;
+    box-shadow: 0px 10px 20px #0000000F;
+}
+.mobile_radio_inputs:checked + label::after {
+    color: #fff;
+    font-family: FontAwesome;
+    border: 2px solid #FF6733;
+    content: "\f00c";
+    font-size: 13px;
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    transform: translateX(-50%);
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 67%;
+    background: #FF6733;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.25);
+}
+.option_image{
+    background-color: #ffe2d8;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+.option_image img{
+    width: 100px;
+    object-fit: scale-down;
+}
+
+
+
+
+.continueBtn{
+    float: right;
+}
+@media (min-width: 1280px){
+    .MuiContainer-maxWidthLg {
+        max-width: none !important;
+    }
+}
+.MuiContainer-root {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-left: 0px !important;*/
+    /*padding-right: 0px !important;*/
+}
+
+.sectionArea{
+    height: 50vh;
+}
+
+.ctnu-btn {
+
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+    background-color: #ff6733;
+    border: 2px solid white;
+    font-size: 12px;
+    font-family: 'Open Sans', serif !important;
+
+
+}
+.span-ctn{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 30px;
+    border: 4px solid #ff6733;
+    /* padding: 0.2em 0em; */
+    /*padding-bottom: 1em;*/
+    /*padding-top: 0.8em;*/
+    float: right;
+    /* margin-top: 25px;*/
+    /*margin-bottom: 30px;*/
+}
+

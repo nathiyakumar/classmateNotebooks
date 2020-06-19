@@ -1,0 +1,9 @@
+.pageheader_component .pageheader_title{
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin: 15px 0;
+    color: #3D3D3D;
+    font-weight: 400;
+    line-height: 1.33;
+    text-transform: capitalize;
+}

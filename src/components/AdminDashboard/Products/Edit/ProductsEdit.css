@@ -1,0 +1,7 @@
+.product_edit_form_component .product_edit_form_container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.product_edit_form_component .MuiCheckbox-colorSecondary.Mui-checked {
+    color: #ff6733 !important;
+}

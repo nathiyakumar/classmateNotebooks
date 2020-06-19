@@ -1,0 +1,92 @@
+.MyOrderPage{
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.userProfile{
+    background-color: #2e3e5e;
+    height: 120px;
+    color: #fff;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.userDetail{
+    padding: 15px 15px;
+}
+.panel{
+    border: solid 1px #e0e0e0;
+
+    margin-bottom: 30px;
+
+}
+
+.panelTitle{
+    border: solid 1px #e0e0e0;
+    background-color: #f9f9f9;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.panelBody{
+    background-color: #fff;
+
+}
+.specification{
+    color: rgb(165, 163, 163);
+    text-align: left !important;
+    font-family: 'Poppins', sans-serif;
+}
+.orderDetail{
+    text-align: left !important;
+    font-family: 'Poppins', sans-serif;
+}
+.orderStatus{
+    width: 10px;
+    height: 10px;
+    background-color: #2275f5;
+    display: inline-flex;
+    border-radius: 10px;
+    box-shadow: 0 1.5px 4px 0 #2275f5;
+
+}
+.trackBtn{
+    background-color: rgb(255, 103, 51) !important;
+    color: #fff !important;
+    border-radius: 1px !important;
+    padding: 12px !important;
+    width: 9rem;
+}
+.order_shipping_details{
+    display: flex;
+}
+.order_shipping_details .order_shipping_product_name{
+    width: 70%;
+    font-size: 14px;
+}
+.order_shipping_details .order_shipping_product_quantity{
+    width: 30%;
+    text-align: center;
+}
+.shipping_status{
+    margin: 4px 15px;
+    font-size: 14px;
+}
+.same_height_column{
+    height: 100%;
+}
+.track_btn_column{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+
+
+
+
+
+

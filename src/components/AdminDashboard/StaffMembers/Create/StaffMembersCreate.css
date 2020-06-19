@@ -1,0 +1,9 @@
+.staff_member_create_component .staff_member_edit_container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+ .staff_member_edit_container.MuiFormControl-root .MuiFormLabel-root.Mui-focused{
+    color: #FF6733 !important;
+    background-color: #ffffff !important;
+
+}

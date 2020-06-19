@@ -1,0 +1,123 @@
+.wiro_notebooks{
+    width: 370px;
+    height: 280px;
+    /*width: 23rem;*/
+    /*height: 18rem;*/
+    background: transparent linear-gradient(90deg, #E0E0E0 0%, #EBEBEB 4%, #FAFAFA 12%, #FFFFFF 18%, #FDFDFD 28%, #F6F6F6 31%, #F5F5F5 32%, #F3F3F3 40%, #ECECEC 43%, #E0E0E0 45%, #CFCFCF 47%, #B9B9B9 49%, #A0A0A0 50%, #A6A6A6 50%, #C2C2C2 50%, #D8D8D8 51%, #E8E8E8 51%, #F2F2F2 52%, #F5F5F5 53%, #EDEDED 68%, #EFEFEF 75%, #F7F7F7 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 9px 18px 18px #00000029;
+    opacity: 1;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+.wiro_notebooks .notebook_center_part{
+    width: 30px;
+    /*height: 300px;*/
+    height: 17rem;
+    background: transparent url('https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/SPIRAL.svg') 0% 0% no-repeat padding-box;
+    transition: all 100ms ease-in;
+    opacity: 1;
+}
+.center_stabled_notebooks{
+    width: 370px;
+    height: 280px;
+    background: transparent linear-gradient(90deg, #E0E0E0 0%, #EBEBEB 4%, #FAFAFA 12%, #FFFFFF 18%, #FDFDFD 28%, #F6F6F6 31%, #F5F5F5 32%, #F3F3F3 40%, #ECECEC 43%, #E0E0E0 45%, #CFCFCF 47%, #B9B9B9 49%, #A0A0A0 50%, #A6A6A6 50%, #C2C2C2 50%, #D8D8D8 51%, #E8E8E8 51%, #F2F2F2 52%, #F5F5F5 53%, #EDEDED 68%, #EFEFEF 75%, #F7F7F7 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 9px 18px 18px #00000029;
+    opacity: 1;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+
+}
+.center_stabled_notebooks .notebook_center_part{
+    width: 0px;
+    height: 17rem;
+    background: transparent url('https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/STAPLE.svg') 0% 0% no-repeat padding-box;
+    background: transparent url('https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/SPIRAL.svg') 0% 0% no-repeat padding-box;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    transition: all 100ms ease-in;
+
+
+    opacity: 1;
+}
+
+
+/*code for form*/
+
+.form_title_desktop{
+    font-size: 2rem;
+    margin: 0;
+}
+.question_desktop{
+    opacity: 0.6;
+    color: #000;
+    font: 18px "Open Sans", sans-serif;
+    font-weight: normal;
+}
+.binding_section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.binding_section > div {
+    flex: 1;
+    padding: 0.5rem;
+    max-width: 256px;
+}
+
+.binding_radio_inputs {
+    display: none;
+}
+.binding_radio_inputs:not(:disabled) ~ .binding_label {
+    cursor: pointer;
+}
+.binding_radio_inputs:disabled ~ .binding_label {
+    color: #bcc2bf;
+    border-color: #bcc2bf;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.binding_label {
+    /*height: 100%;*/
+    display: block;
+    background: white;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    /*padding: 1rem;*/
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.binding_radio_inputs:checked + .binding_label {
+    background: #fff;
+    color: #000;
+    border: 2px solid #FF6733;
+    box-shadow: 0px 10px 20px #0000000F;
+}
+.binding_radio_inputs:checked + .binding_label::after {
+    color: #fff;
+    font-family: FontAwesome;
+    border: 2px solid #FF6733;
+    content: "\f00c";
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #FF6733;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.25);
+}
+.binding_option_image{
+    background-color: #ffe2d8;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+

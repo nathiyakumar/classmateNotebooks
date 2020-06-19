@@ -1,0 +1,18 @@
+.customer_detail_component .form_feild{
+    width: 100%;
+}
+.customer_detail_component .product_form_transition_label{
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+
+.customer_detail_component .overlay {
+    display:none;
+}
+.customer_detail_component .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #FF6733 !important;
+}
+.customer_detail_component .MuiFormLabel-root.Mui-focused{
+    color:#FF6733 !important;
+}
+

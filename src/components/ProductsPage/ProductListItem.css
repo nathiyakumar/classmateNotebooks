@@ -1,0 +1,222 @@
+.product_list_item_component{
+    transform-style: preserve-3d;
+    -webkit-transition:  100ms ease-out;
+    -moz-transition:  100ms ease-out;
+    -o-transition:  100ms ease-out;
+    transition:  100ms ease-out;
+}
+
+.product-list-item {
+    text-align: center;
+    border: solid 2px rgba(112, 112, 112, 0.2);
+    background-color: #f2f2f2;
+    height: 100%;
+
+
+    -webkit-transition: all 100ms ease-out;
+    -moz-transition: all 100ms ease-out;
+    -o-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+}
+.product-list-item__image {
+    /*background-color: #ffffff;*/
+    /*display: flex;*/
+    /*height: 250px;*/
+    /*justify-content: center;*/
+    /*cursor: pointer;*/
+
+
+    background-color: #ffffff;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.product_list_item_component.animate .product-list-item__image{
+    top:0px;
+    left:0px;
+    -webkit-transition: all 100ms ease-out;
+    -moz-transition: all 100ms ease-out;
+    -o-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+}
+
+.product_list_item_component.animate{
+    box-shadow:0px 13px 21px -5px rgba(0, 0, 0, 0.3);
+    -webkit-transition:  100ms ease-out;
+    -moz-transition:  100ms ease-out;
+    -o-transition:  100ms ease-out;
+    transition:  100ms ease-out;
+}
+
+.product_list_item_component.animate .product-list-item__action{
+    /* 	top:272px; */
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.product_list_item_component.animate .image_overlay{
+    opacity:0.5;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+.product_list_item_component.animate #view_details{
+    opacity: 1;
+    font-size: 15px;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+#view_details:hover{
+    background:#fff;
+    color:#ff6733;
+    cursor:pointer;
+
+}
+
+
+.product_image{
+    height: 250px;
+    width: 100%;
+}
+.image_overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#ff6733;
+    opacity:0;
+}
+#view_details{
+    position: absolute;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 10rem;
+    opacity: 0;
+    transition: all 200ms ease-out;
+}
+.product-list-item__image img {
+    object-fit: contain;
+    max-width: 100%;
+    /*margin: 20px 0px;*/
+    height: 100%;
+}
+.product_list_item_component.animate .product-list-item__image img {
+    transform: scale(1.2);
+    transition: all .5s ease 0s;
+}
+.product-list-item__title {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    /*margin-top: 1rem !important;*/
+    text-align: left;
+    font-size: 13px !important;
+}
+.product-list-item__title:hover{
+    text-decoration: underline;
+}
+
+.product-list-item__price {
+
+    text-align: left;
+    color: #ff6733;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.product-list-item__action{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+
+}
+.add_to_cart_icon{
+    color: #fff;
+    background-color: #ff6733 !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+strike {
+    text-decoration: none;
+    /*we're replacing the default line-through*/
+    position: relative;
+    display: inline-block;
+    color: gray;
+    font-weight: 100;
+    /* keeps it from wrapping across multiple lines */
+}
+
+strike:after {
+    content: "";
+    /* required property */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid gray;
+    height: 45%;
+    /* adjust as necessary, depending on line thickness */
+    /* or use calc() if you don't need to support IE8: */
+    height: calc(50% - 1px);
+    /* 1px = half the line thickness */
+    width: 100%;
+    transform: rotateZ(-14deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

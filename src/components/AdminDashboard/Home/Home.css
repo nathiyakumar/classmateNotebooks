@@ -1,0 +1,96 @@
+.admin_home_component {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.admin_home_component .admin_home_card_grid{
+    display: grid;
+    grid-column-gap: 24px;
+    grid-template-columns: 1fr 64px;
+}
+.admin_home_component .admin_home_card_grid .admin_home_card_icon{
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px 5px 10px 5px;
+    font-size: 54px;
+    border-radius: 8px;
+    background-color: #f5f1f0;
+    display: flex;
+    justify-content: center;
+}
+.admin_home_component .admin_home_card_grid .admin_home_card_icon img{
+    width: 65%;
+    display: flex;
+    vertical-align: middle;
+
+}
+.admin_home_component .admin_home_card_grid .admin_home_card_title .card-title{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #0606069e;
+}
+.admin_home_component .admin_home_card_grid .admin_home_card_title .count{
+     /*text-align: right;*/
+     font-size: 30px;
+     margin-bottom: 0px;
+     margin-top: 10px;
+     color: #0606069e;
+ }
+.admin_home_component .react-calendar__tile--hasActive{
+     background: #ff673366;
+}
+.admin_home_component .react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+    background: #ff6733;
+}
+.admin_home_component .react-calendar__tile--active {
+    background: #ff6733;
+    color: white;
+}
+.admin_home_component .HomeDashboardDatePicker{
+    /*margin-bottom: 40px;*/
+    /*width: 100%;*/
+    display: flex;
+    /*justify-content: flex-end;*/
+}
+.admin_home_component .HomeDashboardDatePicker .react-daterange-picker__calendar--open{
+     display: flex;
+     justify-content: flex-end;
+}
+.admin_home_component h5{
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin: 15px 0;
+    color: #3D3D3D;
+    font-weight: 600;
+    line-height: 1.33;
+    /*text-transform: capitalize;*/
+}
+.admin_home_component h3{
+    font-size: 20px;
+    padding-bottom: 0;
+    margin: 0;
+    color: #3D3D3D;
+    font-weight: 400;
+    line-height: 1.33;
+    text-transform: capitalize;
+}
+.admin_home_component h2{
+    font-size: 24px;
+    color: #3D3D3D;
+     font-weight: 600;
+     line-height: 1.33;
+    text-transform: capitalize;
+}
+.admin_home_component .admin_home_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.admin_home_component .form_feild{
+    width: 100%;
+}
+.admin_home_component .form_transition_label{
+    background-color: #FFFFFF;
+}

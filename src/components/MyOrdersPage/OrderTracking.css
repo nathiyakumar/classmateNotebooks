@@ -1,0 +1,9 @@
+.order_tracking_table{
+    /* background:red; */
+}
+@media screen and (max-width:540px){
+    .order_tracking_table .MuiTableCell-root{
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+}

@@ -1,0 +1,600 @@
+.PaperkaraftPenLandingPage {
+
+}
+
+.PaperkaraftPenLandingPage .section1{
+    background-color: #131315;
+}
+.landingfirstscreenPaperkraftPen {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.PaperkraftPenLandingHeader {
+    font-size: 45px;
+    color: #E4BB60;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: bold;
+}
+
+.landingfirstscreenPaperkraftPen h5 {
+    font-size: 18px;
+    color: #061922;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 100;
+    opacity: 0.9;
+
+}
+
+.pricePaperkraftPen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pricePaperkraftPen .OfferPrice span{
+    color: #000;
+    font-size: 45px;
+}
+.landingfirstscreenPaperkraftPen .pricePaperkraftPen .OfferPrice span{
+    color: #E4BB60;
+    font-size: 45px;
+}
+
+.page-header {
+    z-index: 2000;
+}
+
+.pricePaperkraftPen .OfferPrice {
+    text-align: center;
+    letter-spacing: 0;
+    color: #fff;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: normal;
+}
+html .modal-open {
+    height: 100vh !important;
+    overflow-y: hidden !important;
+}
+
+.pricePaperkraftPen {
+    color: #061922;
+    font-weight: bold;
+    /*opacity: 0.6;*/
+    font-size: 20px;
+    position: relative;
+
+}
+.landingfirstscreenPaperkraftPen .sub_text{
+    font-size: 20px;
+    /* opacity: 0.9; */
+    font-weight: normal;
+}
+.pricePaperkraftPen .shippingText {
+    color: #061922;
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+/*.pricePaperkraftPen:before {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    left: 0;*/
+/*    top: 45%;*/
+/*    right: 0;*/
+/*    border-top: 2px solid;*/
+/*    border-color: inherit;*/
+/*    -webkit-transform: skewY(-10deg);*/
+/*    -moz-transform: skewY(-10deg);*/
+/*    transform: skewY(-10deg);*/
+/*}*/
+
+.landingImgLeft {
+
+    background: transparent url('https://cls-cdn-wip.sgp1.cdn.digitaloceanspaces.com/live/landing_pages/Paperkraft-Gift-Box-Dec/blue-blob-land.svg') 0% 0% no-repeat padding-box;
+    transform: rotate(-2deg);
+    left: -164.63501px;
+    width: 596px;
+    height: 594px;
+    position: relative;
+    /*top: 35px;*/
+}
+
+.landingImgLeft img {
+    width: 100%;
+
+}
+
+.landingImgRight {
+    top: 80px;
+    right: -113px;
+    position: relative;
+    background: transparent url('https://cls-cdn-wip.sgp1.cdn.digitaloceanspaces.com/live/landing_pages/Paperkraft-Gift-Box-Dec/green_land_blob.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 100%;
+}
+
+.landingImgRight img {
+    width: 100%;
+}
+
+.landingfirstscreenPaperkraftPen .landingBuyNow {
+    background-color: #E4BB60 !important;
+    color: #000 !important;
+    padding: 10px 80px !important;
+    border-radius: 40px !important;
+    margin: 70px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+.landingBuyNow:hover .ri-arrow-right-line , .landingBuyNoHeaderPaperkraftPen:hover .ri-arrow-right-line {
+    transform: scale(1.2);
+
+}
+
+.landingBuyNow:hover , .landingBuyNoHeaderPaperkraftPen:hover , .CartFabButton:hover{
+    filter: drop-shadow(2px 4px 6px #e4bb60bf);
+    z-index: 2000;
+}
+
+.landingBuyNoHeaderPaperkraftPen {
+    background-color: #E4BB60  !important;
+    color: #000 !important;
+    padding: 10px 80px !important;
+    border-radius: 0px !important;
+    /*margin: 22px !important;*/
+    font-size: 20px !important;
+    letter-spacing: 0.2px;
+    font-weight: 600 !important;
+    font-family: "Open Sans" , sans-serif !important;
+}
+
+.downScroll {
+    position: fixed;
+    right: 100px;
+    bottom: 20px;
+}
+
+.landingPenSecondScreen .slide_img {
+    margin: 0 auto !important;
+    display: block;
+
+}
+
+.secondScreenHeader {
+    height: 100px;
+    background-color: green;
+    position: relative;
+}
+
+.moveup {
+    top: -45%;
+    position: relative;
+
+    transition: all .5s ease-in-out;
+
+}
+
+.downScroll {
+    position: absolute !important;
+    z-index: 1;
+    bottom: 10px;
+}
+
+.movedown {
+    top: 0%;
+    position: absolute;
+    transition: all .9s ease-in-out;
+    /*transform-origin: left top;*/
+    transform: scaleY(1);
+    width: 100vw;
+
+}
+
+.trigger-menu-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    /*padding: 10px;*/
+    z-index: 2;
+    background: #ffffff;
+    transition: transform 0.4s;
+    display: block;
+}
+
+.page-header .trigger-menu {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.page-header .trigger-menu svg {
+    fill: #ffffff;
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+
+.page-header .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    text-align: center;
+    padding: 15vh 0 5vh;
+    overflow: auto;
+    z-index: 1;
+}
+
+.page-header .menu a {
+    font-size: 3rem;
+}
+
+.page-header .sub-menu a {
+    font-size: 1.5rem;
+}
+
+.paperkraft_pen_page-main section {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.paperkraft_pen_page-main section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.page-header .trigger-menu svg {
+    transition: transform 0.3s;
+}
+
+
+.trigger-menu-wrapper {
+    transition: transform 0.4s;
+}
+
+.scroll-up .trigger-menu-wrapper {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-down .trigger-menu-wrapper {
+    transform: none;
+}
+
+
+.trigger-menu-wrapper {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    /*height: 4vh;*/
+}
+
+
+
+
+.landingPenSecondScreen, .desktopPenSection3{
+    background-color: #131416;
+
+
+}
+
+@media screen and (max-width: 1500px) {
+    .PaperkraftPenLandingHeader {
+        font-size: 28px;
+        color: #E4BB60;
+        font-family: "Open Sans", sans-serif !important;
+        font-weight: bold;
+        margin: 20px 0px;
+    }
+
+    .landingfirstscreenPaperkraftPen h5 {
+        margin: 10px 0px;
+    }
+
+    .landingBuyNow {
+        margin: 10px 0px !important;
+    }
+
+    .landingPenSecondScreen {
+        /*padding-top: 12vh !important;*/
+    }
+
+    .landingPenSecondScreen .slide_img, .landingfirstscreenPaperkraftPen .landingImgRight img {
+        width: 100%;
+    }
+    .ProductPaper{
+        width: 70% !important;
+    }
+    .GiftBoxVideo {
+        width: 67% !important;
+        height: 79% !important;
+
+    }
+    .landingfirstscreenPaperkraftPen .landingBuyNow {
+
+        margin: 28px !important;
+
+    }
+}
+
+
+.headerItems {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.slick-slide .MuiGrid-container {
+    display: flex !important;
+}
+
+.slider-page {
+    margin: 0;
+    position: relative;
+    top: 60%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*height: 100vh;*/
+}
+
+.slider-page-section3 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*height: 100vh;*/
+}
+
+.desktopPenSection3 .slick-prev {
+    z-index: 1000;
+    left: 30%;
+}
+
+.desktopPenSection3 .slick-next {
+    z-index: 1000;
+    right: 30%;
+}
+
+.slide_img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.desktopPenSection3 .slick-next:before, .desktopPenSection3 .slick-prev:before {
+    color: #000000;
+    font-size: 30px !important;
+}
+
+
+
+.slideBgImage {
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+.paperkraft_pen_slide_img{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.slideBgImage img {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -35%) !important;
+    max-height: 80% !important;
+    max-width: 80% !important;
+}
+
+.PaperkaraftPenLandingPage  .slick-dots {
+     bottom: 10vh !important;
+ }
+.PaperkaraftPenLandingPage  .slick-dots li.slick-active button:before{
+    color: #E4BB60 !important;
+}
+.desktopSection5{
+    background-color: #FFFCF6;
+}
+.desktopSection5 h1{
+    padding-top: 75px;
+    text-align: center;
+    font-size: 30px;
+}
+.section5_Page{
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.reviewCard{
+    padding:20px;
+}
+.reviewCard .reviewTitle{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif !important;
+}
+.reviewCard .reviewSubTitle{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif !important;
+}
+.ProductModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProductPaper {
+    background-color: #fff;
+    box-shadow: -3px 0px 6px #0000004f;
+    width: 50%;
+
+    /*boxShadow: theme.shadows[5]*/
+    /*padding: theme.spacing(2, 4, 3),*/
+}
+.ProductPaper:focus{
+    outline: none;
+}
+.ProductModal .MuiBackdrop-root {
+
+    backdrop-filter: blur(5px);
+
+}
+.GiftGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gift_title{
+    font-family: "Open Sans", sans-serif !important;
+    margin-bottom: 0px;
+}
+.gift_subtitle{
+    font-family: "Open Sans", sans-serif !important;
+    color:#3D3D3D;
+    margin: 0px;
+    opacity: 0.6;
+}
+.gift_price{
+    font-weight: bold;
+
+    font-size: 20px;
+}
+.paperGrid{
+    padding: 30px;
+}
+.paperGrid .MuiGrid-container{
+    margin-bottom: 5px;
+}
+.PaperkraftPenCheckoutBtn {
+    width: 100%;
+    padding: 20px !important;
+    background-color: #E4BB60 !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    letter-spacing: 1.44px !important;
+    font-weight: 600 !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 18px !important;
+}
+#product_quantity0 ,#product_quantity1 , #product_quantity2 , #product_quantity3{
+    display: none;
+}
+ #addToCart1, #addToCart2,#addToCart3{
+    display: inline-flex;
+}
+.desktopSection4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7B7B7B;
+}
+.GiftBoxVideo{
+    width: 54%;
+    height: 63%;
+    border-radius: 16px;
+}
+.playIcon{
+    color: #fff;
+    font-size: 50px !important;
+}
+.paperkraftCartFabButtonpaperkraftPen {
+    color: #fff !important;
+    background-color: #E4BB60  !important;
+    /* float: none; */
+    position: fixed!important;
+    bottom: 15px!important;
+    right: 60px!important;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif !important;
+}
+.paperkraftCartFabButtonpaperkraftPen  .MuiBadge-colorSecondary{
+    background-color : #ffffff !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.GiftGrid .modalImage{
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down
+}
+.CartFabButtondesktop{
+    z-index: 1000;
+}
+.paperkraft-product-div{
+    background-color: #e4bb60;
+    border-radius: 10px;
+}
+.slideBgImageScepterPen1 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Scepter/scepter-desk1.jpg");
+
+}
+
+.slideBgImageScepterPen2 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Scepter/scepter-desk2.jpg");
+}
+
+
+
+.slideBgImageScepterPen3 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Scepter/scepter-desk3.jpg");
+
+}
+
+.slideBgImageScepterPen4 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Scepter/scepter-desk4.jpg");
+}
+.slideBgImageScepterPen5 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Scepter/scepter-desk5.jpg");
+}
+.slideBgImageScepterPen6 {
+     background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Scepter/scepter-desk6.jpg");
+}
+.slideBgImageCallistaPen1 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Callista/callista-desk1.jpg");
+}
+
+.slideBgImageCallistaPen2 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Callista/callista-desk2.jpg");
+}
+
+.slideBgImageCallistaPen3 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Callista/callista-desk3.jpg");
+}
+
+.slideBgImageCallistaPen4 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Callista/callista-desk4.jpg");
+}
+.slideBgImageCallistaPen5 {
+    background-image: url("https://cdn.classmateshop.co.in/live/landing_pages/PaperKraft-Pens/New/Desktop/Callista/callista-desk5.jpg");
+}
+
+.slideBgImagePen {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}

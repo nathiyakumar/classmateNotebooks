@@ -1,0 +1,36 @@
+.voucher_detail_component .form_feild{
+    width: 100%;
+}
+.voucher_detail_component .product_form_transition_label{
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+.voucher_detail_component .input-euro {
+    position: relative;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.voucher_detail_component .percentage:before  {
+    position: absolute;
+    content:"%";
+}
+.voucher_detail_component .fixed:before  {
+    position: absolute;
+    content:"\20B9";
+}
+
+.voucher_detail_component .input-euro.right input {
+    padding-right:18px;
+    /*text-align:end;*/
+}
+
+.voucher_detail_component .input-euro.right:before {
+    right: 5px;
+}
+.voucher_detail_component .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #FF6733 !important;
+}
+.voucher_detail_component .MuiFormLabel-root.Mui-focused{
+    color:#FF6733 !important;
+}

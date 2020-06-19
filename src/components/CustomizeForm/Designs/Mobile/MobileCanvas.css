@@ -1,0 +1,252 @@
+
+.mobile_bottom_tabs{
+     position: absolute;
+     bottom: 3.5rem;
+     width: 100%;
+ }
+@media screen and (min-device-width: 375px)and (min-device-height: 660px) and (max-device-height: 668px) {
+    .mobile_bottom_tabs{
+        position: absolute;
+        bottom: 4.7rem !important;
+        width: 100%;
+    }
+}
+.mobile_canvas_uploadImage{
+    width: 60px;
+}
+.mobile_canvas_uploadImage input{
+    display: none;
+}
+.mobile_tab_input_fields .MuiOutlinedInput-input{
+    background-color: #fff !important;
+    padding: 8px !important;
+}
+.mobile_canvas_textfield .MuiOutlinedInput-notchedOutline {
+    border-color: #ff6733 !important;
+    border-width: 1px !important;
+}
+
+.mobile_tab_input_fields .AddTxtBtn{
+    background-color: #46c267!important;
+    color: #fff!important;
+    border: none!important;
+    border-radius: 0!important;
+    padding: 5px;
+}
+.mobile_tab_input_fields .mobile_text_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile_tab_input_fields .mobile_text_line .fontFamily{
+    width: 25%;
+}
+.mobile_tab_input_fields .mobile_text_line .fontFamily p{
+    font-size: 12px !important;
+}
+.mobile_tab_input_fields .mobile_text_line .fontFamily .MuiOutlinedInput-notchedOutline ,
+.mobile_tab_input_fields .mobile_text_line .fontSize .MuiOutlinedInput-notchedOutline
+{
+    border-color: #ff6733!important;
+    border-radius: 3px!important;
+    border-width: 1px!important;
+}
+.mobile_tab_input_fields .mobile_text_line .fontSize {
+    width: 25%!important;
+
+}
+/*.mobile_tab_input_fields .mobile_text_line  button {*/
+/*    background-color: #fff;*/
+/*    color: #000;*/
+/*    font-size: 12px;*/
+/*    border-radius: 3px;*/
+/*    padding: 8px !important;*/
+/*    width: 35px!important;*/
+/*    height: 35px !important;*/
+/*    border: 1px solid #ff6733;*/
+/*}*/
+.mobile_tab_input_fields .mobile_text_line  .AddTxtBtn {
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 6px !important;
+    width: 35px!important;
+    border: 1px solid #ff6733;
+}
+.mobile_tab_input_fields .mobile_text_line input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.mobile_tab_input_fields .mobile_text_line .MuiFormControl-marginNormal {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+#full-width-tabpanel-0 .MuiBox-root-400 , #full-width-tabpanel-1 .MuiBox-root-399 {
+    padding: 6px;
+}
+.mobile_canvas_component .MuiExpansionPanelSummary-root{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    padding: 0 !important;
+    background: #ffffff !important;
+}
+
+.mobile_canvas_component  .MuiExpansionPanelSummary-content{
+    flex-grow: 0 !important;
+    /*padding-top: 100px !important;*/
+    margin: 0 !important;
+    width: 100%;
+    /*order: 1;*/
+}
+
+.mobile_canvas_component  .MuiExpansionPanelSummary-expandicon{
+    right:50% !important;
+    /*padding: 3px !important;*/
+
+}
+.mobile_canvas_component .MuiExpansionPanelDetails-root{
+    padding: 0 !important;
+    /*width: 100% !important;*/
+}
+.mobile_canvas_component .expansion_panel_content{
+    width:100%;
+}
+.mobile_canvas_component .mobile_tab_title{
+    color: #ff6733 !important;
+}
+.mobile_canvas_component .MuiTabs-indicator{
+    background-color:#ff6733 !important ;
+}
+.mobile_canvas_component .MuiExpansionPanelSummary-expandIcon{
+    position: absolute !important;
+    z-index: 9999999 !important;
+    padding: 0 !important;
+    top: 0 !important;
+}
+.mobile_canvas_part{
+    padding: 10px 15px;
+}
+.mobile_canvas_part .mobile_canvas_header_section{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile_canvas_part .mobile_canvas_title{
+    font-size: 14px;
+}
+.mobile_canvas_part .mobile_reset_btn{
+    padding: 8px;
+    background-color: #ff6733;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+.mobile_canvas_part .mobile_canvas_carousel_section{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.mobile_canvas_part .mobile_canvas_carousel_section .canvas_section{
+    /*transform: scale(.5)!important;*/
+    /*transform-origin: 0 0!important;*/
+    border: 1px solid gray;
+}
+.mobile_canvas_part .mobile_canvas_carousel_section .canvas-container{
+    transform: scale(0.5);
+    transform-origin: left top;
+    -webkit-transform-origin-x: left;
+    -webkit-transform-origin-y: top;
+    border: 1px solid gray;
+}
+
+.mobile_canvas_part .mobile_canvas_carousel_section .slider {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 22rem;
+}
+/*.mobile_canvas_component .mobile_backArrow .fa-2x,.mobile_canvas_component .mobile_nextArrow .fa-2x {*/
+/*    font-size: 20px !important;*/
+/*}*/
+.mobile_canvas_component .text_bold_btn,.mobile_canvas_component .text_italic_btn,.mobile_canvas_component .text_underline_btn{
+    background-color: #fff;
+    padding: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    width: 50px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.mobile_canvas_component .text_bold_btn_active,.mobile_canvas_component .text_italic_btn_active,.mobile_canvas_component .text_underline_btn_active{
+    background-color: #FF6733;
+    /*padding: 16px;*/
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+    /*margin-top: 30px;*/
+    /*border: none;*/
+    /*width: 45px;*/
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+
+    padding: 8px;
+    border: 2px solid #ff6733;
+    border-radius: 5px;
+    width: 50px;
+    margin: 2px;
+}
+.mobile_text_line .mobile_canvas_text{
+    padding: 8px;
+    border: 2px solid #ff6733;
+    border-radius: 5px;
+    margin: 2px;
+}
+.mobile_text_line .mobile_fontFamily , .mobile_text_line .mobile_fontSize{
+    padding: 8px;
+    border: 2px solid #ff6733;
+    border-radius: 5px;
+    margin: 2px;
+}
+.mobile_text_line .text_bold_btn, .mobile_text_line .text_italic_btn, .mobile_text_line .text_underline_btn {
+    padding: 8px;
+    border: 2px solid #ff6733;
+    border-radius: 5px;
+    width: 50px;
+    /*margin: 0px !important;*/
+    margin: 2px !important;
+}
+
+
+.mobile_canvas_component .MuiExpansionPanelSummary-root.Mui-expanded{
+    min-height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

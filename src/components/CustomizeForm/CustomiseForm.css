@@ -1,0 +1,13 @@
+.App{
+    padding: 0 !important;
+}
+.desktop_header_component{
+
+}
+.desktop_footer_component{
+    position: absolute;
+    bottom: 0;
+}
+.mobileDesignField .mobile_navbar .marq{
+    display: none !important;
+}

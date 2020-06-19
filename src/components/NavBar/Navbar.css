@@ -1,0 +1,345 @@
+body{
+    padding-right: 0px !important;
+}
+.desktopAppBar{
+    background-color: #061922 !important;
+    position: fixed !important;
+    box-shadow: none !important;
+    height: fit-content;
+}
+.MainNav{
+    background-color: #292961;
+}
+marquee{
+    background-color: #292961;
+    color:#fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 600px){
+    .desktopAppBar  .MuiToolbar-regular {
+        min-height: 65px !important;
+    }
+}
+.desktopAppBar .makeStyles-search-4 {
+
+    background-color: rgb(255, 255, 255) !important;
+}
+.desktopAppBar.makeStyles-searchIcon-5 .MuiAppBar-colorPrimary {
+    color: #282c34 !important;
+
+}
+.desktopAppBar .makeStyles-search-4 .makeStyles-searchIcon-5 .MuiSvgIcon-root{
+    fill: #282c34 !important;
+}
+.desktopAppBar .MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+}
+.NavBtn{
+    position: relative;
+    transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    -moz-transition:width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    -webkit-transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (min-width: 600px) {
+    .desktopAppBar .makeStyles-search-4 {
+        width: 48%;
+    }
+}
+/*.desktopAppBar .BtnContent{*/
+/*    border: solid 2px #ffffff;*/
+/*    padding: 8px;*/
+/*    border-radius: 2px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+/*Design your notebook btn design and animations --- start*/
+.desktopAppBar .TrackOrderBtnContent{
+    cursor: pointer;
+}
+
+.desktopAppBar .BtnContent {
+    /*border: solid 2px #ffffff;*/
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #ffff;
+    position: relative;
+    z-index: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    /*filter: drop-shadow(0px 0px 2px #fff);*/
+
+}
+.desktopAppBar .TrackOrderBtnContent {
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #ffff;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    /*border: 3px solid #fff;*/
+}
+
+.desktopAppBar .BtnContent::before{
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    animation: animate-button 3s linear infinite;
+}
+.desktopAppBar .BtnContent::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 3px;
+    top: 3px;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    background: #061922;
+    /*border-radius: 5px;*/
+}
+@keyframes animate-button {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+
+/*Design your notebook btn design and animations --- end*/
+
+
+@media (min-width: 600px) {
+    .desktopAppBar .NavBtn{
+        display: block;
+    }
+}
+@media (max-width: 400px) {
+    .desktopAppBar .NavBtn{
+        display: none;
+    }
+}
+.DesktopBtmNav{
+    position: relative !important;
+    min-height: 40px !important;
+    color: #000;
+    background-color: #fff !important;
+    z-index: 1;
+}
+.DesktopBtmMenu{
+    /*margin: 0 80px;*/
+    padding: 0 5px;
+    /* max-width: 1275px; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    color: #000;
+    list-style: none;
+    /*max-width: 1248px;*/
+    /*width: 100%;*/
+    height: 100%;
+    margin: 0 auto;
+}
+.DesktopBtmMenu li {
+    cursor: pointer;
+}
+.menuList{
+    padding: 12px 10px 9px;
+    font-weight: 500;
+    display: block;
+    /*color: #0000004d;*/
+}
+
+.DesktopNav{
+    display: grid;
+}
+.arrowDown{
+    margin: -3px -3px -3px 10px;
+    /*opacity: 0.3;*/
+}
+.desktopAppBar .toolBar{
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.MainNav{
+    padding-bottom: 66px;
+    min-width: 978px;
+    position: relative;
+}
+.desktopAppBar .MuiBadge-colorSecondary {
+    color: #fff;
+    background-color: #FF6733 !important;
+}
+@media (min-width: 960px){
+    .makeStyles-sectionDesktop-8 {
+        display: contents;
+    }
+}
+@media (min-width: 1400px){
+    .DesktopBtmMenu {
+        padding: 0 17%;
+    }
+}
+
+.userAccount{
+    padding: 20px 0px 20px 20px !important;
+}
+.DownArrow{
+    /*padding: 20px 3px;*/
+    display: flex;
+}
+.DesktopBtmMenu li ul{
+    display:none;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background-color: #ffffff;
+    text-align: left;
+    white-space: nowrap;
+    color: #000;
+    list-style: none;
+    padding: 0px;
+}
+.DesktopBtmMenu li ul li{
+    padding-left: 21%;
+    padding-right: 21%;
+}
+.DesktopBtmMenu  li:hover > ul {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    /*color: #f0f0f0;*/
+    box-shadow: 0px 0px 7px #00000033;
+    display: flex;
+    justify-content: center;
+}
+.nav a {
+    display: block;
+    padding: 0 16px;
+    line-height: inherit;
+    cursor: pointer;
+}
+.nav__menu {
+    line-height: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /*padding: 0 10%;*/
+
+    /*updated menutems*/
+    padding: 0 4%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav__menu-item {
+    display: inline-block;
+    position: relative;
+    margin: 0 18px;
+}
+.nav__menu-item:hover {
+    background-color: #ffdcd3;
+}
+.nav__menu-item:hover .menuList, .nav__menu-item:hover img{
+    color: #000000;
+    opacity: 1;
+}
+.nav__menu-item:hover .nav__submenu {
+    display: block;
+}
+.nav__submenu-item:hover  .nav_sub__submenu{
+    display: block;
+}
+.nav__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: #ffded3;
+    z-index: 100001;
+}
+.nav_sub__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    left: 300px;
+    /*top:0;*/
+    width: 300px;
+    background-color: #ffded3;
+    border-left: 1px solid #ea9883;
+    z-index: 1;
+}
+.nav__submenu-item:hover,.nav_sub__submenu-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+
+}
+
+@media screen and (max-width: 1400px){
+    .nav__menu,.nav a {
+        padding: 0;
+    }
+
+}
+
+

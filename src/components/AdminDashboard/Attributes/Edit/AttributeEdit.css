@@ -1,0 +1,11 @@
+.attributeeditform_component .attributeeditform_container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.attributeeditform_component .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #FF6733 !important;
+}
+.attributeeditform_component .MuiFormLabel-root.Mui-focused{
+    color:#FF6733 !important;
+}
+

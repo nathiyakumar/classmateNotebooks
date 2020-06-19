@@ -1,0 +1,225 @@
+
+.MblThemedNotebooks{
+    margin-top: 1rem;
+    margin-bottom: 30px;
+    padding: 0 1rem;
+}
+.packbtn{
+
+    padding: 10px;
+    color: #fff;
+    background-color: #ff6733;
+    font-family: Poppins,sans-serif!important;
+    font-size: 16px;
+    border: none;
+}
+
+.FixedSpan{
+    position: fixed;
+    bottom: 0px;
+    width: calc(100% - 20px);
+    display: inline-flex;
+    background-color: #FFEEE8;
+    height: 60px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.MblCloseBtn{
+    font-size: 22px;
+    background-color: #fff;
+    border: none;
+}
+.notebookDesignContainer {
+
+    max-width: calc(100% - 20px);
+    max-height: 300px;
+    padding: 8px;
+    height: 247px;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    border: 1px dashed #707070;
+    margin-bottom: 10px;
+
+}
+.notebookdesigns{
+    width: 70px;
+    height: 94px;
+    background-color: gray;
+    margin: 6px auto;
+}
+.notebookdesigns img {
+    width: 100%;
+    height: 100%;
+}
+.slick-slide .MuiGrid-root.grid.MuiGrid-item.MuiGrid-grid-xs-4 {
+    padding: 6px;
+}
+.notebookDesignContainer .slick-dots {
+    bottom: -35px !important;
+}
+
+
+.menu-item-wrapper{
+    display: inline-block;
+    color: #ff6733;
+    background-color: #fff;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 3px;
+    border: 2px solid  #ff6733;
+    outline: none;
+}
+.menu-item-wrapper.active {
+    color: #fff !important;
+    background-color: #ff6733 !important;
+    border-radius: 30px;
+    outline: none;
+}
+.selectSpecsBtn{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600 !important;
+    border: none;
+    box-shadow: 0px 0px 4px #00000014;
+    border-bottom: 2px solid #70707069 !important;
+}
+
+.scroll-menu-arrow {
+    /*padding: 10px;*/
+    cursor: pointer;
+}
+
+.variantTitle{
+    font-family: Poppins,sans-serif!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.themeVariant .selectedSize ,.themeVariant .selectedRule ,.themeVariant .selectedBind,.themeVariant .selectedPage{
+    background-color: #ffe6de !important;
+    color: #ff6733 !important;
+    border: 2px solid #ff6733;
+    border-radius: 40px;
+    outline: none;
+    font-weight: 600;
+}
+.variantBtn{
+    background-color: #fff !important;
+    color: rgb(255, 103, 51) !important;
+    border: 2px solid #ff6733 !important;
+    border-radius: 40px !important;
+    outline: none !important;
+    width: 45% !important;
+    margin: 10px !important;
+}
+.mobile_specification_part{
+    display: flex;
+    justify-content: space-between;
+}
+.spec_title{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.spec_btn{
+    width: 40%;
+    background-color: #ff6733;
+    border: none;
+    color: #fff;
+    /* padding: 6px; */
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.AddtoCart{
+    background-color: #ff6733;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+.spec_submit_button{
+    background-color: #ff6733;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.spec_submit_button:focus{
+    outline: none;
+}
+.mobile_empty_img{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.variantBtn .MuiButton-label{
+    font-size: 12px !important;
+}
+
+
+
+.pn-ProductNav {
+    margin: 10px 0px;
+    /* Make this scrollable when needed */
+    overflow-x: auto;
+    /* We don't want vertical scrolling */
+    overflow-y: hidden;
+    /* For WebKit implementations, provide inertia scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* We don't want internal inline elements to wrap */
+    white-space: nowrap;
+    /* If JS present, let's hide the default scrollbar */
+}
+.js .pn-ProductNav {
+    /* Make an auto-hiding scroller for the 3 people using a IE */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* Remove the default scrollbar for WebKit implementations */
+}
+.js .pn-ProductNav::-webkit-scrollbar {
+    display: none;
+}
+
+.pn-ProductNav_Contents {
+    float: left;
+}
+
+.pn-ProductNav_Link {
+    text-decoration: none;
+
+    font-size: 1.2em;
+    font-family: -apple-system, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    /*min-height: 44px;*/
+    border: 2px solid #ff6733;
+    border-radius: 35px;
+}
+.pn-ProductNav_Link a{
+    color: #ff6733 !important;
+}
+.pn-ProductNav_Link + .pn-ProductNav_Link {
+    margin-left: 11px;
+    /*padding-left: 11px;*/
+    /*border-left: 1px solid #eee;*/
+}
+/*.pn-ProductNav_Link[aria-selected="true"] {*/
+/*    color: #111;*/
+/*}*/
+.pn-ProductNav_Link a{
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.pn-ProductNav_Contents .active{
+    background-color: #ff6733;
+    border-radius: 33px;
+
+}
+.pn-ProductNav_Contents  .active a{
+    color: #fff !important;
+}

@@ -1,0 +1,59 @@
+
+.popup_design_content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    background: #bcc2bfad 0% 0% no-repeat padding-box;
+    /*background-color: rgba(0,0,0, 0.5);*/
+}
+.popup_inner_design_contest {
+
+    background: white;
+    background-repeat: no-repeat;
+    background-position: top;
+    box-shadow: 0px 30px 60px #00000029;
+    border-radius: 0px;
+    background-size: contain;
+    /*background: transparent linear-gradient(180deg, #FFFFFF00 0%, #FFFFFFCC 50%, #FFFFFF 100%) 0% 0% no-repeat padding-box;*/
+
+    animation: popup_animation 400ms ;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.22,.61,.36,1);
+}
+
+@media screen and (min-width: 540px){
+    .popup_inner_design_contest {
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 25%;
+        bottom: 25%;
+        margin: auto;
+        width: 650px;
+        height: 600px;
+    }
+}
+
+@keyframes popup_animation {
+    0%   { top: calc(0vh - 100px);opacity: 0}
+    100% { top: 200px;
+        opacity: 1;}
+}
+.popup_close_btn{
+   text-align: end;
+
+}
+.popup_close_btn .fab_close_btn_design_contest{
+    width: 35px !important;
+    height: 35px !important;
+    margin: 10px 20px;
+    display: inline-block;
+    /*display: block;*/
+    /*float: right;*/
+}

@@ -1,0 +1,114 @@
+.PaperkraftCategoryPage {
+    /*background-color: #2D1D54;*/
+    color: #fff;
+
+    /*height: 100vh;*/
+
+
+}
+
+.FlexPage {
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.PaperkraftCategoryImg {
+    height: fit-content;
+}
+
+.PaperkraftCategoryDiv {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+
+.paperkaftContent img {
+    width: auto !important;
+    padding: 20px 0px;
+}
+
+.paperkaftContent p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.accordion ul li div a h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 2px;
+    top: 0px;
+}
+
+.PaperkraftCategoryDiv a .BrandPrice {
+    color: #ffffffbf;
+    /*font-family: Montserrat, sans-serif;*/
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.PaperkraftCategoryDiv a .brandDef {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+
+}
+
+.PaperkraftCategoryDiv a * {
+
+    margin: 0;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+.categoryImage {
+    width: 50%;
+}
+
+.categoryImageDiv {
+    text-align: center;
+}
+
+.CategoryDetails {
+    display: none;
+}
+
+.categoryImageDiv:hover .CategoryDetails {
+    display: block;
+    transition: all 500ms ease-in-out;
+    transform: translateY(-20px);
+}
+
+.categoryImageDiv:hover {
+    background-color: #ffffff52;
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.categoryImageDiv:hover .categoryImage {
+    width: 60%;
+    transition: all 500ms ease-in-out;
+    transform: translateY(-50px);
+}
+
+.CategoryDetails p {
+    /*font-family: 'Poppins' , sans-serif;*/
+    font-size: 12px;
+}
+
+.CategoryDetails h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.sliderLink {
+    color: #ffffff !important;
+}

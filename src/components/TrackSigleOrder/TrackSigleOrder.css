@@ -1,0 +1,182 @@
+.single_order_tracking_component .form-group {
+    padding: 0;
+    border: 0;
+    display: contents;
+}
+.single_order_tracking_component label {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    touch-action: manipulation;
+}
+
+.single_order_tracking_component input{
+    display: block;
+    padding: 10px;
+    margin-right: 1rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+}
+.single_order_tracking_component input:focus,
+.single_order_tracking_component textarea:focus {
+    outline: 0;
+    border-bottom-color: #ffab00;
+}
+.single_order_tracking_component .btn {
+    display: inline-block;
+    padding: .75rem 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #ffab00;
+    border: 1px solid transparent;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+}
+.single_order_tracking_component .btn:focus, .btn:hover {
+    background-color: #ffc142;
+    box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+}
+.single_order_tracking_component .btn:focus {
+    outline: 0;
+}
+
+@media screen and (max-width:540px ){
+    .newOrderTrackPage_container {
+        margin-top: 5rem !important;
+    }
+    .single_order_tracking_component .form-group{
+        display: block !important;
+    }
+    .form-group label{
+        display: none !important;
+    }
+    .single_order_tracking_component input{
+        margin-right: 10px !important;
+        padding: 10px 5px !important;
+    }
+    .newOrderTrackPage_container .stepper_activity_date{
+        font-size: 12px !important;
+    }
+    .newOrderTrackPage_container .MuiStepLabel-root{
+        /*width: 100% !important;*/
+    }
+    .newOrderTrackPage_container .MuiStepper-root{
+        padding: 0 !important;
+    }
+    /*.newOrderTrackPage_container .MuiStepConnector-vertical {*/
+    /*    margin-left: 100px !important;*/
+    /*}*/
+}
+.newOrderTrackPage_container {
+    margin: 2% 0;
+}
+
+.newOrderTrackPage_container .OrderDetailRow{
+    margin: 10px 10px;
+    display: flow-root;
+}
+.newOrderTrackPage_container .OrderDetailRowLeft{
+    float: left;
+    font-weight: 600;
+    width: 50%;
+}
+.newOrderTrackPage_container .OrderDetailRowRight{
+    float: right;
+    width: 50%;
+}
+.newOrderTrackPage_container .order_date{
+    font-size: 70px;
+    margin: 10px 0px;
+    color: #ff6733;
+}
+.newOrderTrackPage_container .order_status{
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.newOrderTrackPage_container .MuiStepConnector-vertical {
+    padding: 0 0 8px;
+    /*margin-left: 150px;*/
+    display: flex;
+    justify-content: center;
+    margin-left: 0!important;
+}
+.newOrderTrackPage_container .MuiStepConnector-lineVertical {
+    min-height: 50px;
+    border-left-style: dashed;
+    border-left-width: 2px;
+}
+.newOrderTrackPage_container .MuiStep-vertical:before {
+
+    display: flex;
+    margin-left: -62px;
+    margin-right: 10px;
+}
+.newOrderTrackPage_container .MuiStep-vertical{
+    display: flex;align-content: center;
+    width: 100%;
+}
+/*.newOrderTrackPage_container .status_steps{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+.newOrderTrackPage_container .MuiStepLabel-iconContainer {
+    display: flex;
+    flex-shrink: 0;
+    /* padding-right: 8px; */
+    padding: 0px 8px;
+}
+.newOrderTrackPage_container .admin_cart_title_component .component_title{
+    font-weight: 800;
+}
+.newOrderTrackPage_container .MuiGrid-spacing-xs-3 {
+    width: 100%;
+    margin: 56px 0px;
+    padding: 10px;
+}
+.newOrderTrackPage_container .react-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newOrderTrackPage_container .estimated_day_section{
+    display: flex;
+    align-items: center;
+    opacity:  0.9;
+}
+.newOrderTrackPage_container .courier_parner_detail_section{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.newOrderTrackPage_container .stepper_activity_date{
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.newOrderTrackPage_container .MuiStepLabel-vertical{
+    width: 50%;
+    margin-right: 40px;
+}
+

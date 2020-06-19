@@ -1,0 +1,524 @@
+.HomeSection1{
+    background-color: #FF6733;
+    color: #000;
+    /*padding: 10px;*/
+    height: 76vh;
+    margin-bottom: 30px;
+    margin-top: 56px !important;
+    width: 100%;
+
+}
+.MblSection1Title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    margin-top: 30px;
+}
+.MblDesignBtn{
+    background-color: #fff !important;
+    padding: 10px 18px !important;
+    border-radius: 30px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-top: 20px !important;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+.boy-img{
+    position: relative;
+    width: 84%;
+    float: right;
+    top: 15px;
+}
+.MblImg{
+    position: relative;
+    /*float: right;*/
+    /*right: 10px;*/
+    /*top: -210px;*/
+    right: -176px;
+    top: -207px;
+}
+.mobile-screen{
+    position: absolute;
+    left: 4px;
+    width: 60%;
+    bottom: 43px;
+}
+.MblSection2 , .MblSection3 , .MblSection4, .MblSection5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    padding: 10px;
+    /*margin-top: 40px;*/
+
+}
+.MblSection2Title , .MblSection3Title ,MblSection4Title{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    padding-top: 40px;
+}
+.MblSection2Para , .MblSection3Para, .MblSection4Para{
+    font-family: 'Poppins', sans-serif !important;
+    color: #061922;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+    font-size: 18px !important;
+}
+.MblSec4DesignTitle{
+    font-family: 'Poppins', sans-serif !important;
+    color: #061922;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    font-size: 18px !important;
+}
+.MblSection2Link , .MblSection4Link{
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: underline;
+    font-size: 20px !important;
+    font-weight:600 !important;
+
+}
+.scroll-btn{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.designId{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+.designPrice{
+    font: Medium  Poppins;
+
+    color: #FF6733;
+}
+.MblSection3{
+    height: 500px;
+    background: transparent radial-gradient(closest-side at 50% 1%, #609FFF 0%, #1A73FF 100%) 0% 0% no-repeat padding-box;
+}
+.MblSection4{
+    background-image: url("https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/notePage.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px !important;
+    background-size: 100%;
+
+}
+.MblSection4Title{
+    padding-top: 50px;
+}
+.MblSection4Link{
+    color: #000 !important;
+
+
+}
+.MblSection2 .menu-item-wrapper {
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 3px;
+    outline: none;
+    border: none;
+}
+.MblSection2 .menu-item-wrapper.active {
+    color: #fff !important;
+    background-color: #ff6733 !important;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #ff6733;
+}
+.selectSpecsBtn{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600 !important;
+    border: none;
+    box-shadow: 0px 0px 4px #00000014;
+    border-bottom: 2px solid #70707069 !important;
+}
+
+.scroll-menu-arrow {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.horizontal-menu{
+    margin-top: 20px;
+}
+.MblSection5{
+    height: 466px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.MblSection5Title{
+    color: #fff !important;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.MobileHomePage{
+    /*margin-top: 49px;*/
+}
+
+.HomeSection1{
+    background-color: #FF6733;
+    color: #000;
+    padding: 10px;
+    height: 76vh;
+    margin-bottom: 120px;
+    margin-top: 56px !important;
+
+}
+.MblSection1Title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    margin-top: 30px;
+}
+.MblDesignBtn{
+    background-color: #fff !important;
+    padding: 10px 18px !important;
+    border-radius: 30px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-top: 20px !important;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+/*.boy-img{*/
+/*    position: relative;*/
+/*    width: 84%;*/
+/*    float: right;*/
+/*    top: 15px;*/
+/*}*/
+/*.MblImg{*/
+/*    position: relative;*/
+/*    float: right;*/
+/*    right: 10px;*/
+/*    top: -210px;*/
+/*}*/
+/*.mobile-screen{*/
+/*    position: absolute;*/
+/*    left: 4px;*/
+/*    width: 60%;*/
+/*    bottom: 43px;*/
+/*}*/
+.MblSection2{
+    margin-top: 20px;
+}
+.MblSection2 , .MblSection3 , .MblSection4, .MblSection5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    padding: 10px;
+    /*margin-top: 40px;*/
+
+}
+.MblSection2Title , .MblSection3Title ,MblSection4Title{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    padding-top: 40px;
+}
+.MblSection2Para , .MblSection3Para, .MblSection4Para{
+    font-family: 'Poppins', sans-serif !important;
+    color: #061922;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+    font-size: 18px !important;
+}
+.MblSec4DesignTitle{
+    font-family: 'Poppins', sans-serif !important;
+    color: #061922;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    font-size: 18px !important;
+}
+.MblSection2Link , .MblSection4Link{
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: underline;
+    font-size: 20px !important;
+    font-weight:600 !important;
+
+}
+.scroll-btn{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.designId{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+.designPrice{
+    font: Medium  Poppins;
+
+    color: #FF6733;
+}
+.MblSection3{
+    height: 500px;
+    background: transparent radial-gradient(closest-side at 50% 1%, #609FFF 0%, #1A73FF 100%) 0% 0% no-repeat padding-box;
+}
+.MblSection4{
+    background-image: url("https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/notePage.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    /*height: 650px;*/
+    text-align: center;
+    margin-top: 20px !important;
+
+}
+.MblSection4Title{
+    padding-top: 50px;
+}
+.MblSection4Link{
+    color: #000 !important;
+
+
+}
+.MblSection2 .menu-item-wrapper {
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 3px;
+    outline: none;
+    border: none;
+}
+.MblSection2 .menu-item-wrapper.active {
+    color: #fff !important;
+    background-color: #ff6733 !important;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #ff6733;
+}
+.selectSpecsBtn{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600 !important;
+    border: none;
+    box-shadow: 0px 0px 4px #00000014;
+    border-bottom: 2px solid #70707069 !important;
+}
+
+.scroll-menu-arrow {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.horizontal-menu{
+    margin-top: 20px;
+}
+.MblSection5{
+    height: 466px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    margin: 0px;
+
+}
+.MblSection5Title{
+    color: #fff !important;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 20px !important;
+}
+
+
+
+
+
+.div-block {
+    display: block;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 13;
+    -webkit-order: 12;
+    -ms-flex-order: 12;
+    order: 12;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.div-block-2 {
+    width: 100%;
+    float: left;
+    clear: none;
+    background-color: transparent;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading-2 {
+    margin-top: 20px !important;
+    text-align: center;
+    padding-right: 0;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    -webkit-column-count: auto;
+    column-count: auto;
+    white-space: normal;
+}
+.MobileHomePage .button {
+    height: 38px;
+    margin-top: 8px;
+    padding: 8px 24px;
+    clear: left;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #061922;
+    letter-spacing: 1.618px;
+    cursor: pointer;
+}
+
+.div-block-3 {
+    position: relative;
+    left: auto;
+    top: 10%;
+    right: auto;
+    bottom: 0;
+    display: inline-block;
+    overflow: visible;
+    width: 100%;
+    height: 200px;
+    margin-top: -26px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    float: none;
+    clear: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    border: 1px none #000;
+    background-color: transparent;
+    -webkit-transform: perspective(0);
+    transform: perspective(0);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-align: center;
+}
+.section-1 {
+    position: relative;
+    height: 455px;
+    background-color: #ff6733;
+}
+.boy {
+    position: relative;
+    /*width: 75%;*/
+    margin: 0 auto;
+    display: block;
+
+}
+.desktop-img {
+    position: relative;
+    left: -2%;
+    top: -120px;
+    right: auto;
+    bottom: 0;
+}
+.image {
+    position: relative;
+    left: 8px;
+    top: -221px;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (min-width: 600px){
+    .boy{
+        width: 46%;
+    }
+}
+@media screen and (min-width: 760px){
+    .section-1 {
+        height: 552px;
+    }
+    .desktop-img {
+        left: -15%;
+    }
+    .image {
+        left: 8px;
+    }
+}
+@media screen and (min-width: 1000px){
+
+    .section-1 {
+        height: 685px;
+    }
+    .desktop-img {
+        left: -15%;
+    }
+    .image {
+        left: 8px;
+    }
+}
+
+
+

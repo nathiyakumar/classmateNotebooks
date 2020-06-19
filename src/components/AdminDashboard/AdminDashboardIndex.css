@@ -1,0 +1,29 @@
+.admin_dashboard_index_component .sidenav_list_item {
+    margin-bottom: 20px !important;
+}
+.admin_dashboard_index_component .MuiDrawer-paper{
+    /*margin-top: 64px;*/
+}
+.admin_dashboard_index_component .active_text span{
+    color: #ff6733;
+    font-weight: 600;
+}
+.admin_dashboard_index_component .admin_sidenav_logo_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #061922;
+}
+.admin_dashboard_index_component .admin_dashboard_index_container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.admin_dashboard_index_component .MuiChip-clickable.MuiChip-outlined:hover, .MuiChip-clickable.MuiChip-outlined:focus, .MuiChip-deletable.MuiChip-outlined:focus {
+    background-color: #FFFFFF !important;
+}
+

@@ -1,0 +1,18 @@
+.OrderTrackingDialog .MuiBackdrop-root{
+    background-color: #00000008 !important;
+}
+.OrderTrackingDialog .MuiPaper-elevation24{
+    box-shadow: none !important;
+    /*filter: drop-shadow(0px 10px 20px #0003) !important;*/
+}
+@media screen and (max-width: 540px){
+    .OrderTrackingDialog .MuiDialog-paperFullWidth{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+}
+.OrderTrackingDialog .MuiDialog-container{
+    background: #63636324 !important;
+    backdrop-filter: blur(0px) !important;
+}
+

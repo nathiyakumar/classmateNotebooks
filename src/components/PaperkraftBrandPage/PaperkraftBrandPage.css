@@ -1,0 +1,199 @@
+.PaperkraftBrandPage {
+    display: flex;
+}
+
+.paperkraftSection1, .paperkraftSection2, .paperkraftSection3, .paperkraftSection4, .paperkraftSection5 {
+    width: 20vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.paperkraftSection1 {
+    background-color: #2D1D54;
+}
+
+.paperkraftSection2 {
+    background-color: #061922;
+}
+
+.paperkraftSection3 {
+    background-color: #21541D;
+}
+
+.paperkraftSection4 {
+    background-color: #1D5054;
+}
+
+.paperkraftSection5 {
+    background-color: #541D54;
+}
+
+.leftSideBrandSec img {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.accordion {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.accordion ul {
+    width: 100%;
+    height: 90vh;
+    display: table;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+.accordion ul li {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 16.666%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 600ms cubic-bezier(.77, 0, .18, 1);
+
+}
+
+.accordion ul li:hover {
+    display: table-cell;
+    /*vertical-align: top;*/
+    position: relative;
+    width: 16.666%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 500ms ease-in-out;
+}
+
+
+.accordion ul li div {
+    display: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion:hover ul:hover li:hover div {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion ul li div a h2 {
+    font-family: Montserrat;
+    /*text-overflow: clip;*/
+    font-size: 24px;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    margin-bottom: 2px;
+    top: 0px;
+}
+
+.accordion ul li div .sliderLink {
+    transform: translateY(100px);
+}
+
+
+.accordion ul li div a .BrandPrice {
+    color: #ffffffbf;
+    /*font-family: 'Montserrat', sans-serif;*/
+    padding-top: 10px;
+
+}
+
+.accordion ul li div a .brandDef {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+
+}
+
+.accordion ul li {
+    background-size: cover;
+}
+
+.accordion ul:hover li {
+    width: 10%;
+
+    height: 90vh;
+}
+
+.accordion ul:hover li:hover {
+    width: 20%;
+    /*display: flex;*/
+}
+
+.accordion ul:hover li:hover .leftSideBrandSec {
+    padding: 60px 60px;
+    display: inline-block;
+}
+
+.accordion ul:hover li:hover .paperkraftBrandImg {
+    width: 50%;
+    float: left;
+    height: 100%;
+
+}
+
+
+.accordion ul:hover li:hover a * {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 680px) {
+
+    body {
+        margin: 0;
+    }
+
+    .accordion {
+        height: auto;
+    }
+
+    .accordion ul li,
+    .accordion ul li:hover,
+    .accordion ul:hover li,
+    .accordion ul:hover li:hover {
+        position: relative;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .accordion ul li div a * {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.PaperkraftBrandBtn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    text-align: left;
+    /*font: Semibold 14px/19px Open Sans;*/
+    letter-spacing: 1.12px;
+    color: #061922;
+    opacity: 1;
+    padding: 16px;
+    border: none;
+
+    /*bottom: 0px;*/
+
+
+}

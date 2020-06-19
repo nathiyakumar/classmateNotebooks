@@ -1,0 +1,26 @@
+.admin_product_list_component .admin_product_list_container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.admin_product_list_component .admin_product_list_top_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin_product_list_component .component_title{
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin: 0;
+    color: #3D3D3D;
+    font-weight: 400;
+    line-height: 1.33;
+}
+.admin_product_list_component .admin_create_product_btn{
+    background-color: #FF6733;
+    color: #fff;
+}
+.admin_product_list_component .admin_create_product_btn:hover {
+    background-color: #fff;
+    color: #FF6733;
+    border: 1px solid #FF6733;
+}

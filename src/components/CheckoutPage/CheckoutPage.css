@@ -1,0 +1,191 @@
+.checkout_form_column{
+    padding-left: 6%;
+    padding-right: 4%;
+    padding-top: 5%;
+}
+.cart_product_list_title{
+    padding: 20px;
+    background-color: #000;
+    color: #ffff;
+}
+
+.cart_product_list_column{
+    background-color: #EBEBEB;
+    padding-left: 6%;
+    padding-right: 4%;
+    padding-top: 5%;
+}
+.cart_product_list_part{
+    width: 100%;
+    background-color: #fff;
+}
+.cart_product_detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    border-bottom: 1px solid lightgray;
+}
+.cart_product_price_detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+.cart_product_total_price{
+    font-size: 20px;
+    font-weight: 600;
+}
+._loading_overlay_wrapper{
+    height: 100vh;
+}
+.css-df17o1{
+    background: rgba(0, 0, 0, 0.18) !important;
+}
+
+/*.loading_section{*/
+/*    background-color: rgb(53, 126, 221);*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    -webkit-box-pack: center;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*    flex-wrap: wrap;*/
+/*    display: flex;*/
+/*}*/
+/*.loading_section .article{*/
+/*    flex-direction: column;*/
+/*    -webkit-box-align: center;*/
+/*    align-items: center;*/
+/*    height: 8rem;*/
+/*    margin: 0.5rem;*/
+/*    width: 25%;*/
+/*    -webkit-box-pack: center;*/
+/*    justify-content: center;*/
+/*    display: flex;*/
+/*}*/
+
+
+
+@media screen and (max-width: 540px){
+    .checkout_form_column{
+        order: 2;
+    }
+    .cart_product_list_column{
+        order: 1;
+    }
+    .cart_product_list_part{
+        width: 100%;
+    }
+    .cart_product_list_column{
+        padding:5% 10px;
+    }
+    .checkout_form_column{
+        padding: 0;
+    }
+}
+
+.checkout_component .MuiPaper-elevation1 {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.checkout_component .MuiExpansionPanelDetails-root{
+    padding: 0 !important;
+    flex-direction: column;
+}
+.checkout_component .apply_coupon_code_text{
+    color: #ff6733;
+    border-bottom: 3px dotted #ff6733;
+}
+.checkout_component .coupon_list_section{
+    width: 100%;
+}
+.checkout_component .coupon_list_section .coupon_list_title{
+    background-color:#cdd1d352;
+    padding: 10px 24px;
+}
+.checkout_component .coupon_card{
+    padding: 0 24px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.checkout_component .coupon_name{
+    font-size: 20px;
+    font-width: 800;
+    font-style: italic;
+}
+.checkout_component .coupon_description{
+    font-size: 16px;
+    font-weight: 600;
+}
+.checkout_component .coupon_validity{
+    font-size: 14px;
+    color: gray;
+}
+.checkout_component .coupon_action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkout_component .coupon_code{
+    border: 2px dotted red;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #ff673342;
+}
+.checkout_component .coupon_card p{
+    margin: 7px 0;
+}
+.checkout_component .coupon_code_form{
+    padding: 0 24px;
+    margin: 20px 0;
+}
+.checkout_component .coupon_code_form_group{
+    flex-direction: row;
+}
+.checkout_component .coupon_code_form_button{
+    background-color: #ff6733;
+    color: #fff;
+    box-shadow: none;
+    border-radius: 0;
+}
+.checkout_component .coupon_code_form_button:hover{
+    background-color: #ff6733;
+}
+/*.checkout_component .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline ,.checkout_component .MuiFormLabel-root.Mui-focused {*/
+/*    border-color: rgba(0, 0, 0, 0.23) !important;*/
+/*    outline: none;*/
+/*}*/
+
+.checkout_component .coupon_code_form label.Mui-focused{
+    color: rgba(0, 0, 0, 0.23) !important;
+}
+.checkout_component .coupon_code_form .MuiInput-underline:after{
+    color: rgba(0, 0, 0, 0.23) !important;
+}
+.checkout_component .coupon_code_form .MuiOutlinedInput-root fieldset{
+    border-color: rgba(0, 0, 0, 0.23) !important;
+}
+.checkout_component .coupon_code_form .MuiOutlinedInput-root :hover fieldset{
+    border-color: rgba(0, 0, 0, 0.23) !important;
+}
+.checkout_component .coupon_code_form .MuiOutlinedInput-root .Mui-focused fieldset{
+    border-color: rgba(0, 0, 0, 0.23) !important;
+}
+.checkout_component .coupon_applied{
+    padding-left:24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkout_component .coupon_applied_text{
+    font-size: 14px;
+    color: green;
+}
+.checkout_component .force_login_text_section{
+    padding: 0 24px;
+}
+.checkout_component .force_login_text {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+    color: #ff6733;
+}

@@ -1,0 +1,146 @@
+.design_contest_all_entries_page{
+    background-image: url("https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/design_contest_home_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*height: 100vh;*/
+    /*background-color: #090622;*/
+    font-family:Poppins ,'sans-serif';
+}
+
+.design_contest_all_entries_page .contest_home_content p , .contest_home_content h2{
+    margin: 0px;
+}
+.design_contest_all_entries_page .contest_home_content{
+    height: 53vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.design_contest_all_entries_page.contest_home_body_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+.design_contest_all_entries_page .design-contest-second-section ,
+.design_contest_all_entries_page .design-contest-third-section ,
+.design_contest_all_entries_page .design-contest-fourth-section{
+    font-family:Poppins ,'sans-serif';
+
+}
+.design_contest_all_entries_page .contest_home_body_content .border_content{
+    width: 225px;
+    height: 142px;
+    text-align: center;
+    margin: auto 0;
+    display: inline-block;
+    background-color: #FFFFFF59;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px dashed #fff;
+    margin-bottom: 10px;
+    font-family:Poppins ,'sans-serif';
+
+}
+.design_contest_all_entries_page .design-contest-third-section li ,
+.design_contest_all_entries_page .design-contest-third-section p,
+.design_contest_all_entries_page .design-contest-second-section h2,
+.design_contest_all_entries_page .design-contest-third-section h2,
+.design_contest_all_entries_page .design-contest-fourth-section h2{
+    font-family:Poppins ,'sans-serif';
+}
+.design_contest_all_entries_page .submit_btn{
+    background-color: #5F4DFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-family:Poppins ,'sans-serif';
+
+}
+.design_contest_all_entries_page.design-contest-second-section{
+    text-align: center;
+    margin: 0px 60px;
+}
+.design_contest_all_entries_page .count-work{
+    margin: -28px 0px 0px 0px;
+    z-index: 10;
+    background-color: #5f4dff;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 3px;
+    border: 10px solid #ebedf0
+
+}
+.design_contest_all_entries_page .design-contest-third-section{
+    text-align: left;
+    margin: 0px 60px;
+}
+.design_contest_all_entries_page .design-contest-fourth-section{
+    margin: 0 auto;
+    display: table;
+}
+ .design-contest-third-section-designs{
+     border: 2px solid rgba(112, 112, 112, 0.2);
+     padding: 20px;
+     margin-top: 30px;
+     border-radius: 5px;
+}
+@media screen and (max-width: 540px){
+    .design_contest_all_entries_page .design-contest-third-section{
+        margin: 0 20px;
+    }
+    .design_contest_all_entries_page{
+        /*background-size: 100% 60%;*/
+        background-image: url("https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/design_contest_home_mbl_bg.png");
+
+
+    }
+    .design_contest_all_entries_page .contest_home_content{
+        height: 35vh;
+        text-align: center;
+    }
+    .classmate_title{
+        display: none;
+    }
+
+}
+.design_contest_all_list{
+    height: 295px;
+}
+
+.user-designs-title{
+    display: flex;
+    justify-content: space-between;
+}
+.design-contest-button-group{
+    /*width: 20%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.design-contest-button-group button{
+    border: none;
+    background-color: transparent;
+    font-family: Poppins, 'sans-serif';
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.activeWrkType{
+    color: #1A73FF;
+    border-bottom: 2px solid #1A73FF !important;
+}
+.design-contest-third-section .empty_msg{
+    padding: 0px;
+    text-align: center;
+}

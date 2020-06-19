@@ -1,0 +1,73 @@
+.desktopFooter{
+    /*top: 3134px;*/
+    /*left: 0px;*/
+    /*width: 1920px;*/
+    /*height: 520px;*/
+    opacity: 1;
+    background-color: #0d1824;
+    background-image: url("https://cdn.classmateshop.co.in/live/Front-Assets/FrontEnd/FOOTER PATTERN.svg");
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.stickyFooter{
+    top: 3714px;
+    left: 0px;
+    /*width: 1920px;*/
+    height: 72px;
+    background: #1A3048 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: sticky;
+    bottom: 0px;
+}
+.footerBtmContent {
+    max-width: 1248px;
+    width: 100%;
+    /*height: 100%;*/
+    margin: 0 auto;
+    padding: 26px 0px 10px 0px;
+    color:#9ea3a7;
+}
+
+.rightContent{
+    float: right;
+}
+.footerNavigation{
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 26px 0px 10px 0px;
+    /*color: #fff;*/
+}
+.letsDesign{
+    display: flex;
+    background-color: #9595ff;
+    height: 120px;
+    margin: 0 auto;
+    /* margin: 0 auto; */
+    max-width: 750px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.FooterItem {
+    color:#f76432
+}
+.FooterItemList{
+    color:#9ea3a7;
+    list-style: none;
+    padding: 0px;
+}
+.FooterItemList li{
+    padding: 5px 0px;
+}
+.DesignBtn{
+    border: none;
+    border-right: none !important;
+    border-radius: 0px !important;
+
+
+}
+.desktopFooter a{
+    color: #9ea3a7;
+}
+

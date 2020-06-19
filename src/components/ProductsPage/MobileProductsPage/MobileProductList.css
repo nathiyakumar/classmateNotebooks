@@ -1,0 +1,17 @@
+.mobile_product_list{
+    /*margin-top: 15%;*/
+}
+.MblProductTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.mobile_product_list_title{
+    font-size: 13px !important;
+}
+.mobile_products-list__products__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 2rem;
+}

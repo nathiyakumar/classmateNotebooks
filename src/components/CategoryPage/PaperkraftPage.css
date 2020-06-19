@@ -1,0 +1,24 @@
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: scale-down;
+}
+
+#desktop_categories button {
+    border-radius: 50px;
+}
+
+.product_column {
+    display: flex;
+    justify-content: center;
+    /*background-color: lightgray;*/
+}
+
+.card {
+    width: 100%;
+    max-width: 100%;
+}
+
+.card-body {
+    text-align: center;
+}

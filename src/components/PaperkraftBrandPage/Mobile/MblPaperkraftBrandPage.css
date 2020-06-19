@@ -1,0 +1,150 @@
+/*.MblPaperkraftBrandPage{*/
+/*    margin-top: 55px;*/
+/*    background-color: #1A1818;*/
+/*    padding: 15px;*/
+/*}*/
+.paperkraft_logo{
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 55px !important;
+
+
+}
+
+.MblPaperkraftBrandPage{
+    /*margin: 0px;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+
+}
+.scrollContainerSec{
+    margin: 0px;
+    overflow: hidden;
+
+}
+.paperkraft_Title{
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.MblPaperkraftBrandPage .ProductLink{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif !important;
+}
+.MblPaperkraftBrandPage .linkSpan{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    color: #FF6733;
+
+}
+.PaperkraftmobileBrangImg{
+    width: 100%;
+}
+.MblPaperkraftbtmPage{
+    padding: 15px;
+
+}
+
+.MblPaperkraftbtmPage h4{
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+}
+#TextMore {display: none;}
+
+.readMoreBtn ,.readLessBtn{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin: 26px 0px;
+
+}
+.readMoreBtn span , .readLessBtn span {
+    text-decoration: underline;
+    font-size: 18px;
+
+}
+.readLessBtn{
+    display: none;
+}
+
+.MblPaperkraftBrandPage ._1sfQtb1VI_mhiaP2luSXxK{
+    display: none;
+}
+.mblPaperkraftNotebookSeries {
+    width: 65%;
+    padding: 20px;
+}
+.PaperkraftbrandTitle{
+    font-family: 'Montserrat' ,Italic, sans-serif !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    /* text-align: center; */
+    padding: 10px ;
+
+
+
+}
+.PaperkrafbrandSubTitle{
+    font-family: 'Montserrat' , sans-serif !important;
+    /* text-align: center; */
+    padding: 10px ;
+
+
+}
+
+.PaperkrafScrollsectionDiv{
+    padding: 0 16px;
+}
+
+.PaperkraftBrandBtn{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    text-align: left;
+    /*font: Semibold 14px/19px Open Sans;*/
+    letter-spacing: 1.12px;
+    color: #000;
+    opacity: 1;
+    padding: 16px;
+    border: none;
+    bottom: 32px;
+    position: absolute;
+    /*bottom: 0px;*/
+
+
+}
+.scrollContainerSec{
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+.container {
+    background: black;
+    position: relative;
+}
+.spacer {
+    width: 0;
+    height: 100vh;
+    float: left;
+    clear: both;
+
+}
+.one { background:#2D1D54; color: #ffffff; width: 100%; height:100vh; position: relative; float: left; }
+.two { background: #072533; color: #ffffff; width: 100%; height: 100vh; position: relative; float: left; }
+.three { background: #21541D; color: #ffffff; width: 100%; height: 100vh; position: relative; float: left; }
+.four { background: #1D5054; color: #ffffff; width: 100%; height: 100vh; position: relative; float: left; }
+.five { background: #541D54; color: #ffffff; width: 100%; height: 100vh; position: relative; float: left; }
+.latched { position: fixed; color: #ffffff; top: 0; left: 0px; right: 0px; width: auto; }
+
+
+
+

@@ -82,7 +82,7 @@
     "relay-runtime": "^6.0.0",
     "remixicon": "^2.0.0",
     "toastr": "^2.1.4",
-    "xlsx": "^0.15.3"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
